@@ -10,7 +10,7 @@ This repository holds **installers only**. The source code is private and is not
 
 Get the latest version from the Aquafab website (sign in with the email on your order):
 
-**<https://aquafabindustries.com/pages/aquafab-control#downloads>**
+**<https://aquafabindustries.com/pages/aquafab-workbench#downloads>**
 
 | Platform | Installer |
 | --- | --- |
@@ -22,15 +22,15 @@ Get the latest version from the Aquafab website (sign in with the email on your 
 Each release lists what changed in its notes on the
 [Releases](../../releases) page.
 
-## Licence key
+## License key
 
-Aquafab Workbench asks for a licence key the first time it opens. A key comes
+Aquafab Workbench asks for a license key the first time it opens. A key comes
 with every Aquafab system and works on every computer in your lab. If you need
 one, request it on the software page above or email
 [sales@aquafabindustries.com](mailto:sales@aquafabindustries.com).
 
 The software checks the key only when it starts. It never stops a trial, a
-pump or a heater that is already running because of a licence.
+pump or a heater that is already running because of a license.
 
 ## Updates
 
@@ -75,5 +75,5 @@ file of that name, so nothing else has to change.
 4. Publish. Optionally update the version shown on the website's resource
    library entry.
 
-Never put source code, licence keys, the licence signing key, or customer data
+Never put source code, license keys, the license signing key, or customer data
 in this repository. It is public.
