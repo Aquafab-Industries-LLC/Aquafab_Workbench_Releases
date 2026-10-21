@@ -37,9 +37,15 @@ pump or a heater that is already running because of a license.
 
 ## Updates
 
-To update, download the newest installer and install it over the old one.
-Your machines, calibrations and trials are kept. **The software never
-downloads or installs anything by itself.**
+When a new version is out, Aquafab Workbench shows **Update available** at
+the top of the window. Press it, then **Download and install** in Settings.
+The software downloads the new version, checks it against the published
+checksum, closes, installs it and opens again. Your machines, calibrations
+and trials are kept.
+
+It never installs anything without you pressing the button, and it will not
+update while a trial is running. You can also download the newest installer
+from the website and install it over the old one.
 
 ## Support
 
