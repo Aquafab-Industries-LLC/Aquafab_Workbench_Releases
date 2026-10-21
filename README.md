@@ -8,16 +8,19 @@ This repository holds **installers only**. The source code is private and is not
 
 ## Download
 
-Get the latest version from the Aquafab website (sign in with the email on your order):
+Get the latest version from the Aquafab website (sign in, or create a free account):
 
 **<https://aquafabindustries.com/pages/aquafab-workbench#downloads>**
 
 | Platform | Installer |
 | --- | --- |
 | Windows 10/11 (64-bit) | `AquafabWorkbench-Windows.exe` |
-| macOS | `AquafabWorkbench-macOS.dmg` |
-| Raspberry Pi (64-bit Raspberry Pi OS) | `AquafabWorkbench-RaspberryPi.deb` |
-| Other Linux (x86-64) | `AquafabWorkbench-Linux.AppImage` |
+| Mac with Apple silicon (M1 or later) | `AquafabWorkbench-macOS.dmg` |
+| Mac with an Intel processor | `AquafabWorkbench-macOS-Intel.dmg` |
+| Linux (x86-64) | `AquafabWorkbench-Linux.AppImage` |
+
+Raspberry Pi control computers are set up by Aquafab. Contact
+[support](mailto:sales@aquafabindustries.com) if yours needs reinstalling.
 
 Each release lists what changed in its notes on the
 [Releases](../../releases) page.
@@ -34,11 +37,9 @@ pump or a heater that is already running because of a license.
 
 ## Updates
 
-Installed copies check this repository's latest `version.json` at most once a
-day. When a newer version exists, the software tells the operator and opens the
-download page. **It never downloads or installs anything by itself**, and the
-check sends no data about your lab or your machines: it is a plain read of a
-public file.
+To update, download the newest installer and install it over the old one.
+Your machines, calibrations and trials are kept. **The software never
+downloads or installs anything by itself.**
 
 ## Support
 
@@ -53,27 +54,22 @@ and no interlock in it is rated or certified.
 
 ## For Aquafab: making a release
 
-Every release is one GitHub Release in this repo, tagged `vX.Y.Z` (matching
-`version` in `pyproject.toml`), with these five assets. **Keep the file names
-exactly the same every time.** The website and the installed software link to
-`releases/latest/download/<name>`, which always serves the newest release's
-file of that name, so nothing else has to change.
+Releases are published automatically. Pushing a `vX.Y.Z` tag to the private
+source repository builds every installer and creates the release here, with
+`version.json` written from the files themselves. The steps and the token it
+needs are in the source repository's `docs/PACKAGING.md`.
+
+Each release carries the same file names. **Never rename them.** The website
+links to `releases/latest/download/<name>`, which always serves the newest
+release's file of that name.
 
 | Asset | What it is |
 | --- | --- |
 | `AquafabWorkbench-Windows.exe` | Windows installer |
-| `AquafabWorkbench-macOS.dmg` | macOS installer |
-| `AquafabWorkbench-RaspberryPi.deb` | Raspberry Pi package |
-| `AquafabWorkbench-Linux.AppImage` | Other Linux |
-| `version.json` | Read by installed copies to notice an update |
-
-1. Edit `version.json` in this repo: new `version`, `published` and `notes`.
-   Raise `minimum_version` only when older copies must not keep running.
-2. Draft a new release, tag `vX.Y.Z`, title `Aquafab Workbench X.Y.Z`, and
-   paste the notes.
-3. Attach the four installers and the updated `version.json`.
-4. Publish. Optionally update the version shown on the website's resource
-   library entry.
+| `AquafabWorkbench-macOS.dmg` | Mac, Apple silicon |
+| `AquafabWorkbench-macOS-Intel.dmg` | Mac, Intel |
+| `AquafabWorkbench-Linux.AppImage` | Linux, x86-64 |
+| `version.json` | Version, notes, and each file's SHA-256 |
 
 Never put source code, license keys, the license signing key, or customer data
 in this repository. It is public.
