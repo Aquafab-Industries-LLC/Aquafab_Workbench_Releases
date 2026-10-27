@@ -63,9 +63,11 @@ itself. They are not measurements.
 
 ## Preview and license
 
-Without a license, Aquafab Workbench is a preview: you can explore and run
-simulated machines. A license unlocks PIV, fish tracking, trial analysis,
-data export and trials on your own hardware.
+Without a license, Aquafab Workbench is a preview: you can explore one
+example machine, the Alpha Flow Chamber, simulated. A license unlocks every
+machine profile, adding and importing machines, PIV, fish tracking, trial
+analysis, data export and trials on your own hardware. The machine profiles
+on the website are free to download, but importing one needs a license.
 
 A license comes with every Aquafab system. To use the software with your own
 equipment, buy a lab license at
