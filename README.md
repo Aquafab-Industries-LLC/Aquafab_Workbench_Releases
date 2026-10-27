@@ -25,6 +25,27 @@ Raspberry Pi control computers are set up by Aquafab. Contact
 Each release lists what changed in its notes on the
 [Releases](../../releases) page.
 
+## User guides
+
+PDF guides, updated as the software changes. These links always point at the
+newest edition.
+
+| Guide | PDF |
+| --- | --- |
+| The complete user guide: every page, control and procedure | [Aquafab Workbench User Guide](guides/Aquafab-Workbench-User-Guide.pdf) |
+| Download, install, activate, find your way around | [Getting Started](guides/Aquafab-Workbench-Getting-Started.pdf) |
+| Codes, seats and the license dashboard | [Managing Your Lab's Licenses](guides/Aquafab-Workbench-Managing-Licenses.pdf) |
+| Checking and calibrating a new machine | [Commissioning a New Machine](guides/Aquafab-Workbench-Commissioning.pdf) |
+| SMR, MMR, aerobic scope, Pcrit | [Running a Respirometry Trial](guides/Aquafab-Workbench-Respirometry-Trial.pdf) |
+| Tidal cycles, ramps, recorded traces | [Running a Temperature Program](guides/Aquafab-Workbench-Temperature-Program.pdf) |
+| Camera setup, flow fields, pump-to-velocity calibration | [PIV Flow Measurement and Chamber Velocity Calibration](guides/Aquafab-Workbench-PIV-Flow-Calibration.pdf) |
+| The stepped-velocity Ucrit test | [Swim Performance Testing](guides/Aquafab-Workbench-Swim-Performance.pdf) |
+| Following an animal through video | [Fish Tracking](guides/Aquafab-Workbench-Fish-Tracking.pdf) |
+| Comparing treatments, re-analysing, exporting | [Analysing and Exporting Results](guides/Aquafab-Workbench-Analysis.pdf) |
+
+`guides/guides.json` lists each guide with the software version and edition
+date it describes.
+
 ## Screenshots
 
 ![Flow field by PIV behind a cylinder](screenshots/af-ws-piv-wake.jpg)
