@@ -1,0 +1,102 @@
+{
+  "sections": {
+    "hero": {
+      "type": "af-page-hero",
+      "settings": {
+        "surface": "blueprint",
+        "show_crumbs": true,
+        "eyebrow": "Resource Library",
+        "heading": "Manuals, guides & software",
+        "text": "<p>Documentation, software downloads, machine profiles, training material and procurement documents for Aquafab systems. Owner-only files need a free account: sign in with the email on your order.</p>",
+        "btn1_label": "Owner sign-in",
+        "btn1_link": "/account/login",
+        "btn1_style": "accent",
+        "btn2_label": "Request a document",
+        "btn2_link": "#request-file"
+      }
+    },
+    "quick": {
+      "type": "af-cards",
+      "settings": {
+        "surface": "light",
+        "padding": "tight",
+        "columns": "4",
+        "card_style": "muted"
+      },
+      "blocks": {
+        "q1": {
+          "type": "card",
+          "settings": {
+            "eyebrow": "Software",
+            "title": "Aquafab Workbench",
+            "text": "<p>A preview to download for Windows, Mac and Linux, and lab licenses.</p>",
+            "link_label": "Software page",
+            "link": "/pages/aquafab-workbench"
+          }
+        },
+        "q2": {
+          "type": "card",
+          "settings": {
+            "eyebrow": "Owners",
+            "title": "Get support",
+            "text": "<p>Setup, calibration, parts and warranty help.</p>",
+            "link_label": "Support & service",
+            "link": "/pages/support"
+          }
+        },
+        "q3": {
+          "type": "card",
+          "settings": {
+            "eyebrow": "Answers",
+            "title": "FAQ",
+            "text": "<p>Ordering, lead times, shipping and installation.</p>",
+            "link_label": "Read the FAQ",
+            "link": "/pages/faq"
+          }
+        },
+        "q4": {
+          "type": "card",
+          "settings": {
+            "eyebrow": "Purchasing",
+            "title": "Vendor documents",
+            "text": "<p>Vendor packet, payment terms and purchasing documents.</p>",
+            "link_label": "Buying from Aquafab",
+            "link": "/pages/procurement"
+          }
+        }
+      },
+      "block_order": [
+        "q1",
+        "q2",
+        "q3",
+        "q4"
+      ]
+    },
+    "library": {
+      "type": "af-resource-library",
+      "settings": {
+        "surface": "mist",
+        "eyebrow": "Library",
+        "heading": "Browse documents",
+        "lead": "<p>Filter by type or system. Items marked <strong>Request</strong> take you straight to a short form below — we email the file within one business day.</p>",
+        "head_align": "split"
+      }
+    },
+    "request": {
+      "type": "af-request-form",
+      "settings": {
+        "surface": "blueprint",
+        "anchor": "request-file",
+        "eyebrow": "Request a file",
+        "heading": "Request a document",
+        "lead": "<p>Tell us what you need and where to send it. We reply within one business day with the file or a download link.</p><ul><li>Manuals and quick-start guides for your system</li><li>Spec sheets and training material</li><li>A document that isn't listed yet</li></ul>"
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "quick",
+    "library",
+    "request"
+  ]
+}
