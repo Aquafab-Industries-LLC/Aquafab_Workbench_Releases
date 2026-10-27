@@ -8,7 +8,7 @@ This repository holds **installers only**. The source code is private and is not
 
 ## Download
 
-Get the latest version from the Aquafab website. Downloads are free and need no account:
+Get the latest version from the Aquafab website. No account is needed to download it:
 
 **<https://aquafabindustries.com/pages/aquafab-workbench#downloads>**
 
@@ -40,15 +40,19 @@ respirometry trials and the cylinder-wake PIV recording were generated from
 published physiology and textbook flow models, then analyzed by the software
 itself. They are not measurements.
 
-## License key
+## Preview and license
 
-Aquafab Workbench asks for a license key the first time it opens. A key comes
-with every Aquafab system and works on every computer in your lab. If you need
-one, request it on the software page above or email
-[sales@aquafabindustries.com](mailto:sales@aquafabindustries.com).
+Without a license, Aquafab Workbench is a preview: it runs simulated machines
+so you can see how the software works. Running your own hardware, PIV, fish
+tracking and analysis need a license.
 
-The software checks the key only when it starts. It never stops a trial, a
-pump or a heater that is already running because of a license.
+A license comes with every Aquafab system. To use the software with your own
+equipment, buy a lab license at
+<https://aquafabindustries.com/products/aquafab-workbench-license>. Each
+computer is activated once with its own code, and licenses never expire.
+
+A license is never checked in a way that stops a trial, a pump or a heater
+that is already running.
 
 ## Updates
 
