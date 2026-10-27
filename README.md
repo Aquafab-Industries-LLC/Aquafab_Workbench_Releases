@@ -8,7 +8,7 @@ This repository holds **installers only**. The source code is private and is not
 
 ## Download
 
-Get the latest version from the Aquafab website (sign in, or create a free account):
+Get the latest version from the Aquafab website. Downloads are free and need no account:
 
 **<https://aquafabindustries.com/pages/aquafab-workbench#downloads>**
 
@@ -24,6 +24,21 @@ Raspberry Pi control computers are set up by Aquafab. Contact
 
 Each release lists what changed in its notes on the
 [Releases](../../releases) page.
+
+## Screenshots
+
+![Flow field by PIV behind a cylinder](screenshots/af-ws-piv-wake.jpg)
+
+| | |
+| --- | --- |
+| ![Oxygen uptake, three trials overlaid](screenshots/af-ws-analysis-overlay.jpg) | ![Standard metabolic rate by treatment](screenshots/af-ws-analysis-compare.jpg) |
+| ![A programmed temperature curve](screenshots/af-ws-temperature-program.jpg) | ![Holding a chamber at temperature](screenshots/af-ws-thermal-live.jpg) |
+| ![Every measurement cycle of one trial](screenshots/af-ws-trial-cycles.jpg) | ![Machines and data on the start screen](screenshots/af-ws-launcher.jpg) |
+
+Screenshots use simulated machines and modelled example data: the trout
+respirometry trials and the cylinder-wake PIV recording were generated from
+published physiology and textbook flow models, then analyzed by the software
+itself. They are not measurements.
 
 ## License key
 
