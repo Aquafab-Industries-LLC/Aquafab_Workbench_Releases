@@ -1,0 +1,115 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "hero": {
+      "type": "af-page-hero",
+      "settings": {
+        "surface": "steel",
+        "eyebrow": "Quotes & ordering",
+        "heading": "Request a quote",
+        "text": "<p>Tell us what you need and an Aquafab engineer will return a formal, itemized quote — typically within two business days. Quotes are formatted for purchasing offices, grant budgets and sole-source justifications.</p>",
+        "btn1_label": "Configure a system online",
+        "btn1_link": "/pages/systems",
+        "btn2_label": "Purchasing & terms",
+        "btn2_link": "/pages/procurement"
+      },
+      "blocks": {
+        "m1": {
+          "type": "meta",
+          "settings": {
+            "label": "Response time",
+            "value": "Within 2 business days"
+          }
+        },
+        "m2": {
+          "type": "meta",
+          "settings": {
+            "label": "Formatted for",
+            "value": "Purchasing & grant budgets"
+          }
+        },
+        "m3": {
+          "type": "meta",
+          "settings": {
+            "label": "Engineer-reviewed",
+            "value": "Every configuration"
+          }
+        }
+      },
+      "block_order": [
+        "m1",
+        "m2",
+        "m3"
+      ]
+    },
+    "form": {
+      "type": "af-form",
+      "settings": {
+        "surface": "light",
+        "kind": "quote",
+        "eyebrow": "Your request",
+        "heading": "What can we build for you?",
+        "lead": "<ul><li>Itemized pricing for every option</li><li>Lead time and delivery plan</li><li>Installation and training options</li><li>Budget quotes for grant proposals</li></ul><p>Already configured a system? Use the <strong>Request a formal quote</strong> button on its product page to send the full configuration.</p>",
+        "show_contact": true
+      }
+    },
+    "steps": {
+      "type": "af-steps",
+      "settings": {
+        "surface": "mist",
+        "eyebrow": "What happens next",
+        "heading": "From request to installed system",
+        "head_align": "left"
+      },
+      "blocks": {
+        "s1": {
+          "type": "step",
+          "settings": {
+            "title": "Engineering review",
+            "text": "<p>An engineer reviews your request and may call to clarify organisms, protocol and space.</p>"
+          }
+        },
+        "s2": {
+          "type": "step",
+          "settings": {
+            "title": "Formal quote",
+            "text": "<p>You receive an itemized quote with options, lead time and delivery, ready for your purchasing office.</p>"
+          }
+        },
+        "s3": {
+          "type": "step",
+          "settings": {
+            "title": "Purchase order",
+            "text": "<p>Issue a PO or pay by card. We confirm drawings and utilities before fabrication begins.</p>"
+          }
+        },
+        "s4": {
+          "type": "step",
+          "settings": {
+            "title": "Build, deliver, install",
+            "text": "<p>Your system is built and tested in Cincinnati, delivered, and optionally installed with on-site training.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "s1",
+        "s2",
+        "s3",
+        "s4"
+      ]
+    }
+  },
+  "order": [
+    "hero",
+    "form",
+    "steps"
+  ]
+}

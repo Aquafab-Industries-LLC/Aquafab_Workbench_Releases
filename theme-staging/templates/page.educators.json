@@ -1,0 +1,204 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "hero": {
+      "type": "af-page-hero",
+      "settings": {
+        "surface": "steel",
+        "show_crumbs": true,
+        "parent_label": "Research & Community",
+        "parent_link": "/pages/research",
+        "eyebrow": "For educators",
+        "heading": "Hands-on aquatic science for every classroom",
+        "text": "<p>Equipment and teaching support that let students see, measure and control real fluid dynamics and physiology — from middle school outreach to graduate labs.</p>",
+        "image": "shopify://shop_images/af-planted-display.jpg",
+        "btn1_label": "Teaching Flow Chamber",
+        "btn1_link": "/products/teaching-flow-chamber",
+        "btn2_label": "Talk to us about your course",
+        "btn2_link": "#course"
+      }
+    },
+    "gear": {
+      "type": "af-cards",
+      "settings": {
+        "surface": "light",
+        "eyebrow": "Classroom equipment",
+        "heading": "Built for teaching labs",
+        "head_align": "left",
+        "columns": "3",
+        "card_style": "default",
+        "ratio": "4 / 3"
+      },
+      "blocks": {
+        "g1": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/Flow_Chamber_ai.png",
+            "eyebrow": "Fluid dynamics",
+            "title": "Teaching Flow Chamber",
+            "text": "<p>Plug-and-play flumes in three sizes, run from a laptop over USB or Bluetooth.</p>",
+            "link_label": "View product",
+            "link": "/products/teaching-flow-chamber"
+          }
+        },
+        "g2": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/af-swim-school.png",
+            "eyebrow": "Physiology",
+            "title": "Standard Respirometry System",
+            "text": "<p>Swim tunnels in nine standard volumes from 0.5 L to 100 L — ready-to-run metabolic-rate labs.</p>",
+            "link_label": "View product",
+            "link": "/products/standard-respirometry-system"
+          }
+        },
+        "g3": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/af-reef-display.jpg",
+            "eyebrow": "Living collections",
+            "title": "Classroom & display aquariums",
+            "text": "<p>Reliable life support for teaching collections and inspiring displays.</p>",
+            "link_label": "View displays",
+            "link": "/collections/aquarium-habitat-displays"
+          }
+        }
+      },
+      "block_order": [
+        "g1",
+        "g2",
+        "g3"
+      ]
+    },
+    "labs": {
+      "type": "af-features",
+      "settings": {
+        "surface": "navy",
+        "eyebrow": "Lab exercises",
+        "heading": "Ready-to-run teaching modules",
+        "lead": "<p>Each module includes learning objectives, a student handout, instructor notes and data sheets.</p>",
+        "head_align": "split",
+        "columns": "4",
+        "style": "numbered"
+      },
+      "blocks": {
+        "l1": {
+          "type": "feature",
+          "settings": {
+            "title": "Laminar vs. turbulent flow",
+            "text": "<p>Dye visualization and Reynolds number.</p>"
+          }
+        },
+        "l2": {
+          "type": "feature",
+          "settings": {
+            "title": "Boundary layers & drag",
+            "text": "<p>Velocity profiles over models and organisms.</p>"
+          }
+        },
+        "l3": {
+          "type": "feature",
+          "settings": {
+            "title": "Temperature & metabolism",
+            "text": "<p>Oxygen consumption at different temperatures.</p>"
+          }
+        },
+        "l4": {
+          "type": "feature",
+          "settings": {
+            "title": "Behavior in current",
+            "text": "<p>Station-holding and rheotaxis in fish.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "l1",
+        "l2",
+        "l3",
+        "l4"
+      ]
+    },
+    "support": {
+      "type": "af-features",
+      "settings": {
+        "surface": "light",
+        "eyebrow": "Support for schools",
+        "heading": "We make adoption easy",
+        "head_align": "left",
+        "columns": "4",
+        "style": "lined"
+      },
+      "blocks": {
+        "s1": {
+          "type": "feature",
+          "settings": {
+            "icon": "invoice",
+            "title": "School-friendly purchasing",
+            "text": "<p>Purchase orders, tax-exempt orders and budget quotes for grants and department funding.</p>",
+            "link_label": "Buying from Aquafab",
+            "link": "/pages/procurement"
+          }
+        },
+        "s2": {
+          "type": "feature",
+          "settings": {
+            "icon": "award",
+            "title": "Grant support",
+            "text": "<p>Budget quotes and equipment descriptions for instructional and STEM grants.</p>"
+          }
+        },
+        "s3": {
+          "type": "feature",
+          "settings": {
+            "icon": "graduation",
+            "title": "Instructor training",
+            "text": "<p>Virtual or on-site training so your team is confident on day one.</p>"
+          }
+        },
+        "s4": {
+          "type": "feature",
+          "settings": {
+            "icon": "software",
+            "title": "Classroom software licenses",
+            "text": "<p>Aquafab Workbench on every lab computer. Lab 20 covers 20 student and 3 teacher computers, and teachers hand out and free seats themselves, term after term. Licenses never expire.</p>",
+            "link_label": "Aquafab Workbench",
+            "link": "/pages/aquafab-workbench#downloads"
+          }
+        }
+      },
+      "block_order": [
+        "s1",
+        "s2",
+        "s3",
+        "s4"
+      ]
+    },
+    "form": {
+      "type": "af-form",
+      "settings": {
+        "surface": "mist",
+        "anchor": "course",
+        "kind": "educator",
+        "eyebrow": "Your course",
+        "heading": "Let's plan your lab",
+        "lead": "<p>Tell us about your students and learning goals and we'll recommend equipment, quantities and exercises.</p>",
+        "show_contact": true
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "gear",
+    "labs",
+    "support",
+    "form"
+  ]
+}

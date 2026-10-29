@@ -1,0 +1,374 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "hero": {
+      "type": "af-page-hero",
+      "settings": {
+        "surface": "steel",
+        "show_crumbs": true,
+        "eyebrow": "Purchasing",
+        "heading": "Buying from Aquafab",
+        "text": "<p>We make institutional purchasing simple. Purchase orders, NET 30 terms, tax-exempt orders, vendor registration and budget quotes for grants — handled by a team that does this every week.</p>",
+        "btn1_label": "Request a quote",
+        "btn1_link": "/pages/request-a-quote",
+        "btn1_style": "accent",
+        "btn2_label": "Request vendor packet",
+        "btn2_link": "#vendor-packet"
+      },
+      "blocks": {
+        "m1": {
+          "type": "meta",
+          "settings": {
+            "label": "Terms",
+            "value": "NET 30"
+          }
+        },
+        "m2": {
+          "type": "meta",
+          "settings": {
+            "label": "Prepay",
+            "value": "5% off for schools"
+          }
+        },
+        "m3": {
+          "type": "meta",
+          "settings": {
+            "label": "Early pay",
+            "value": "1.5% within 10 days"
+          }
+        },
+        "m4": {
+          "type": "meta",
+          "settings": {
+            "label": "DUNS",
+            "value": "143242081"
+          }
+        }
+      },
+      "block_order": [
+        "m1",
+        "m2",
+        "m3",
+        "m4"
+      ]
+    },
+    "highlights": {
+      "type": "af-features",
+      "settings": {
+        "surface": "light",
+        "padding": "tight",
+        "columns": "4",
+        "style": "lined"
+      },
+      "blocks": {
+        "h1": {
+          "type": "feature",
+          "settings": {
+            "icon": "invoice",
+            "title": "Purchase orders",
+            "text": "<p>POs accepted from institutions and agencies.</p>"
+          }
+        },
+        "h2": {
+          "type": "feature",
+          "settings": {
+            "icon": "doc",
+            "title": "Formal quotes",
+            "text": "<p>Itemized, ready for purchasing and grants.</p>"
+          }
+        },
+        "h3": {
+          "type": "feature",
+          "settings": {
+            "icon": "building",
+            "title": "Vendor registration",
+            "text": "<p>W-9, DUNS and remittance on request.</p>"
+          }
+        },
+        "h4": {
+          "type": "feature",
+          "settings": {
+            "icon": "shield",
+            "title": "Tax-exempt",
+            "text": "<p>Exemption applied with your certificate.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "h1",
+        "h2",
+        "h3",
+        "h4"
+      ]
+    },
+    "cta": {
+      "type": "af-cta",
+      "settings": {
+        "surface": "light",
+        "style": "navy",
+        "eyebrow": "Purchasing questions?",
+        "heading": "We'll work with your procurement office.",
+        "show_contact": true,
+        "btn1_label": "Contact us",
+        "btn1_link": "/pages/contact",
+        "btn2_label": "Request a quote",
+        "btn2_link": "/pages/request-a-quote",
+        "image": "shopify://shop_images/af-flume-overhead.jpg"
+      }
+    },
+    "terms": {
+      "type": "af-terms",
+      "blocks": {
+        "b1": {
+          "type": "term",
+          "settings": {
+            "label": "Standard terms",
+            "value": "NET 30",
+            "icon": "invoice",
+            "highlight": true,
+            "text": "<p>For educational and research institutions and government agencies on approved purchase orders.</p>"
+          }
+        },
+        "b2": {
+          "type": "term",
+          "settings": {
+            "label": "Early payment",
+            "value": "1.5% off",
+            "icon": "clock",
+            "text": "<p>When payment is received within 10 days of the invoice date.</p>"
+          }
+        },
+        "b3": {
+          "type": "term",
+          "settings": {
+            "label": "Prepayment",
+            "value": "5% off",
+            "icon": "graduation",
+            "text": "<p>For schools and universities that prepay their order.</p>"
+          }
+        },
+        "b4": {
+          "type": "term",
+          "settings": {
+            "label": "Accepted methods",
+            "value": "PO · ACH · Card",
+            "icon": "check",
+            "text": "<p>Purchase order, ACH or wire transfer, check, and major credit cards including institutional P-cards.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "b1",
+        "b2",
+        "b3",
+        "b4"
+      ],
+      "settings": {
+        "surface": "mist",
+        "eyebrow": "Payment terms",
+        "heading": "Terms written for institutions",
+        "lead": "<p>Clear, standard terms that fit how universities, schools and agencies already buy. Terms are confirmed on every quote.</p>",
+        "head_align": "split"
+      }
+    },
+    "ordering": {
+      "type": "af-steps",
+      "blocks": {
+        "b1": {
+          "type": "step",
+          "settings": {
+            "title": "Request a quote",
+            "text": "<p>Configure a system online or send your requirements. You receive a formal, itemized quote — typically within 2 business days — ready for purchasing, a grant budget or a sole-source justification.</p>"
+          }
+        },
+        "b2": {
+          "type": "step",
+          "settings": {
+            "title": "Issue a purchase order",
+            "text": "<p>Send your PO to <a href=\"mailto:sales@aquafabindustries.com\">sales@aquafabindustries.com</a> referencing the quote number. Standard items can also be ordered online by card.</p>"
+          }
+        },
+        "b3": {
+          "type": "step",
+          "settings": {
+            "title": "Design review",
+            "text": "<p>For configured and custom systems, we confirm drawings, utilities and delivery logistics with you before fabrication begins.</p>"
+          }
+        },
+        "b4": {
+          "type": "step",
+          "settings": {
+            "title": "Build, test & ship",
+            "text": "<p>Every system is assembled, leak-tested and run in our Cincinnati workshop, then crated for delivery.</p>"
+          }
+        },
+        "b5": {
+          "type": "step",
+          "settings": {
+            "title": "Install & invoice",
+            "text": "<p>Optional installation and training are scheduled with your team. Invoices follow your agreed terms.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "b1",
+        "b2",
+        "b3",
+        "b4",
+        "b5"
+      ],
+      "settings": {
+        "surface": "navy",
+        "eyebrow": "How ordering works",
+        "heading": "From quote to installed system",
+        "head_align": "left"
+      }
+    },
+    "vendor": {
+      "type": "af-facts",
+      "blocks": {
+        "b1": {
+          "type": "fact",
+          "settings": {
+            "label": "Legal name",
+            "value": "Aquafab Industries, LLC"
+          }
+        },
+        "b2": {
+          "type": "fact",
+          "settings": {
+            "label": "DUNS",
+            "value": "143242081"
+          }
+        },
+        "b3": {
+          "type": "fact",
+          "settings": {
+            "label": "Address",
+            "value": "2291 Morning Watch, Cincinnati, OH 45244"
+          }
+        },
+        "b4": {
+          "type": "fact",
+          "settings": {
+            "label": "Sales & POs",
+            "value": "<a href=\"mailto:sales@aquafabindustries.com\">sales@aquafabindustries.com</a>"
+          }
+        },
+        "b5": {
+          "type": "fact",
+          "settings": {
+            "label": "Phone",
+            "value": "+1 (513) 781-8010"
+          }
+        },
+        "b6": {
+          "type": "fact",
+          "settings": {
+            "label": "Vendor packet",
+            "value": "W-9, ACH remittance details, insurance certificate"
+          }
+        }
+      },
+      "block_order": [
+        "b1",
+        "b2",
+        "b3",
+        "b4",
+        "b5",
+        "b6"
+      ],
+      "settings": {
+        "surface": "mist",
+        "eyebrow": "Vendor registration",
+        "heading": "Set us up as a supplier in minutes",
+        "lead": "<p>We regularly complete supplier registrations for universities, colleges and agencies. Request our vendor packet and we'll send it the same business day.</p>",
+        "card_title": "Company details",
+        "btn1_label": "Request vendor packet",
+        "btn1_link": "#vendor-packet",
+        "btn1_style": "navy"
+      }
+    },
+    "more": {
+      "type": "af-features",
+      "blocks": {
+        "b1": {
+          "type": "feature",
+          "settings": {
+            "icon": "shield",
+            "title": "Tax-exempt orders",
+            "text": "<p>Send your exemption certificate with your purchase order and we'll apply it to your invoice. For online card orders, contact us before checkout so we can set your account as tax-exempt.</p>"
+          }
+        },
+        "b2": {
+          "type": "feature",
+          "settings": {
+            "icon": "doc",
+            "title": "Grants & budget quotes",
+            "text": "<p>Budget quotes, equipment descriptions and specifications for grant applications — and pricing held through a review cycle on request.</p>"
+          }
+        },
+        "b3": {
+          "type": "feature",
+          "settings": {
+            "icon": "truck",
+            "title": "Shipping & delivery",
+            "text": "<p>Systems ship crated from Cincinnati. Freight, liftgate and inside-delivery needs are confirmed on your quote; large systems are delivered and installed by our team.</p>"
+          }
+        },
+        "b4": {
+          "type": "feature",
+          "settings": {
+            "icon": "support",
+            "title": "Warranty & support",
+            "text": "<p>A manufacturer's warranty on Aquafab-fabricated components and electronics, plus lifetime technical support. <a href=\"/pages/support\">Support &amp; Service</a></p>"
+          }
+        }
+      },
+      "block_order": [
+        "b1",
+        "b2",
+        "b3",
+        "b4"
+      ],
+      "settings": {
+        "surface": "mist",
+        "eyebrow": "Good to know",
+        "heading": "Everything else your purchasing office will ask",
+        "head_align": "left",
+        "columns": "2",
+        "style": "boxed"
+      }
+    },
+    "vendorform": {
+      "type": "af-form",
+      "settings": {
+        "surface": "light",
+        "anchor": "vendor-packet",
+        "kind": "vendor",
+        "eyebrow": "Vendor packet",
+        "heading": "Get our vendor packet",
+        "lead": "<p>Tell us where to send it and which documents your purchasing office needs. We reply the same business day.</p><ul><li>W-9 and certificate of insurance</li><li>ACH / remittance details</li><li>Completion of your supplier registration forms</li><li>Sole-source letters and capability statement on request</li></ul>",
+        "show_contact": false
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "highlights",
+    "terms",
+    "ordering",
+    "vendor",
+    "vendorform",
+    "more",
+    "cta"
+  ]
+}

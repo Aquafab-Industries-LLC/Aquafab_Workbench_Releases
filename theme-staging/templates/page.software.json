@@ -12,7 +12,7 @@
     "hero": {
       "type": "af-page-hero",
       "settings": {
-        "surface": "blueprint",
+        "surface": "steel",
         "show_crumbs": true,
         "parent_label": "Systems",
         "parent_link": "/pages/systems",

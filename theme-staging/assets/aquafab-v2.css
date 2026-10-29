@@ -191,6 +191,23 @@
 .af-split--photo { grid-template-columns: minmax(0, 0.6fr); min-height: clamp(380px, 38vw, 620px); }
 @media (max-width: 900px) { .af--photo::before { background: linear-gradient(180deg, rgba(7, 19, 42, 0.9) 0%, rgba(7, 19, 42, 0.78) 100%); } .af-split--photo { grid-template-columns: 1fr; min-height: 0; } }
 
+/* Page headers (Chris 2026-10-29, third pass): the blueprint header on every page
+   was too bold and repeated the same blue everywhere. Every page header now uses
+   "steel": a quiet light gray that shades down from the top, with the blueprint
+   grid drawn faintly in gray so it still ties to the dark grid bands below. The
+   dark surfaces are kept for bands further down the page. */
+.af--steel {
+  background-color: #eceff3;
+  background-image:
+    linear-gradient(rgba(12, 30, 60, 0.045) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(12, 30, 60, 0.045) 1px, transparent 1px),
+    radial-gradient(ellipse 55% 110% at 88% 0%, rgba(50, 136, 182, 0.10), transparent 65%),
+    linear-gradient(180deg, #dde3e9 0%, #e9edf1 55%, #f3f5f7 100%);
+  background-size: 32px 32px, 32px 32px, 100% 100%, 100% 100%;
+  border-bottom: 1px solid var(--af-line);
+}
+.af--steel .af-page-hero__image { background: #fff; }
+
 /* ---------- Wide screens (2026-10-29) ----------
    The header follows Horizon's page width (120rem, about 1920px) but every af-
    section stopped at 1240px, so on a large monitor the content sat in a narrow

@@ -1,0 +1,138 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "hero": {
+      "type": "af-page-hero",
+      "settings": {
+        "surface": "steel",
+        "show_crumbs": true,
+        "eyebrow": "Support & Service",
+        "heading": "Support from the people who built your system",
+        "text": "<p>Every Aquafab system comes with lifetime technical support. Reach an engineer directly for help with setup, software, calibration, maintenance, parts or warranty.</p>",
+        "image": "shopify://shop_images/af-software-workstation.jpg",
+        "btn1_label": "Submit a request",
+        "btn1_link": "#request",
+        "btn1_style": "accent",
+        "btn2_label": "Resource Library",
+        "btn2_link": "/pages/resources"
+      },
+      "blocks": {
+        "m1": {
+          "type": "meta",
+          "settings": {
+            "label": "Response",
+            "value": "Within 1 business day"
+          }
+        },
+        "m2": {
+          "type": "meta",
+          "settings": {
+            "label": "Phone",
+            "value": "+1 (513) 781-8010"
+          }
+        }
+      },
+      "block_order": [
+        "m1",
+        "m2"
+      ]
+    },
+    "services": {
+      "type": "af-features",
+      "settings": {
+        "surface": "light",
+        "eyebrow": "Services",
+        "heading": "How we support you",
+        "head_align": "left",
+        "columns": "3",
+        "style": "boxed"
+      },
+      "blocks": {
+        "s1": {
+          "type": "feature",
+          "settings": {
+            "icon": "support",
+            "title": "Technical support",
+            "text": "<p>Phone, email and remote help for as long as you own your system.</p>"
+          }
+        },
+        "s2": {
+          "type": "feature",
+          "settings": {
+            "icon": "shield",
+            "title": "Warranty",
+            "text": "<p>Manufacturer's warranty on Aquafab-fabricated components and electronics; extended coverage available.</p>"
+          }
+        },
+        "s3": {
+          "type": "feature",
+          "settings": {
+            "icon": "wrench",
+            "title": "Installation & commissioning",
+            "text": "<p>On-site setup, leak testing and flow and temperature calibration.</p>"
+          }
+        },
+        "s4": {
+          "type": "feature",
+          "settings": {
+            "icon": "graduation",
+            "title": "Training",
+            "text": "<p>Hands-on or virtual training for researchers, students and staff.</p>"
+          }
+        },
+        "s5": {
+          "type": "feature",
+          "settings": {
+            "icon": "cog",
+            "title": "Maintenance & parts",
+            "text": "<p>Scheduled maintenance visits and replacement parts for Aquafab systems.</p>"
+          }
+        },
+        "s6": {
+          "type": "feature",
+          "settings": {
+            "icon": "software",
+            "title": "Software updates",
+            "text": "<p>Aquafab Workbench updates and help integrating new sensors or equipment.</p>",
+            "link_label": "Aquafab Workbench",
+            "link": "/pages/aquafab-workbench"
+          }
+        }
+      },
+      "block_order": [
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s5",
+        "s6"
+      ]
+    },
+    "form": {
+      "type": "af-form",
+      "settings": {
+        "surface": "mist",
+        "anchor": "request",
+        "kind": "support",
+        "eyebrow": "Support request",
+        "heading": "How can we help?",
+        "lead": "<p>Include your system and serial or order number if you have it. If an experiment is currently affected, choose that urgency and we'll prioritize your request.</p>",
+        "show_contact": true,
+        "email": "sales@aquafabindustries.com"
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "services",
+    "form"
+  ]
+}
