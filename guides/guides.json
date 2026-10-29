@@ -4,71 +4,71 @@
       "id": "user-guide",
       "title": "Aquafab Workbench User Guide",
       "pdf": "Aquafab-Workbench-User-Guide.pdf",
-      "version": "0.2.0",
-      "edition": "28 October 2026"
+      "version": "0.2.1",
+      "edition": "29 October 2026"
     },
     {
       "id": "getting-started",
       "title": "Getting Started with Aquafab Workbench",
       "pdf": "Aquafab-Workbench-Getting-Started.pdf",
-      "version": "0.2.0",
-      "edition": "28 October 2026"
+      "version": "0.2.1",
+      "edition": "29 October 2026"
     },
     {
       "id": "licenses",
       "title": "Managing Your Lab's Licenses",
       "pdf": "Aquafab-Workbench-Managing-Licenses.pdf",
-      "version": "0.2.0",
-      "edition": "28 October 2026"
+      "version": "0.2.1",
+      "edition": "29 October 2026"
     },
     {
       "id": "commissioning",
       "title": "Commissioning a New Machine",
       "pdf": "Aquafab-Workbench-Commissioning.pdf",
-      "version": "0.2.0",
-      "edition": "28 October 2026"
+      "version": "0.2.1",
+      "edition": "29 October 2026"
     },
     {
       "id": "respirometry",
       "title": "Running a Respirometry Trial",
       "pdf": "Aquafab-Workbench-Respirometry-Trial.pdf",
-      "version": "0.2.0",
-      "edition": "28 October 2026"
+      "version": "0.2.1",
+      "edition": "29 October 2026"
     },
     {
       "id": "temperature-program",
       "title": "Running a Temperature Program",
       "pdf": "Aquafab-Workbench-Temperature-Program.pdf",
-      "version": "0.2.0",
-      "edition": "28 October 2026"
+      "version": "0.2.1",
+      "edition": "29 October 2026"
     },
     {
       "id": "piv",
       "title": "PIV Flow Measurement and Chamber Velocity Calibration",
       "pdf": "Aquafab-Workbench-PIV-Flow-Calibration.pdf",
-      "version": "0.2.0",
-      "edition": "28 October 2026"
+      "version": "0.2.1",
+      "edition": "29 October 2026"
     },
     {
       "id": "swim",
       "title": "Swim Performance (Ucrit) Testing",
       "pdf": "Aquafab-Workbench-Swim-Performance.pdf",
-      "version": "0.2.0",
-      "edition": "28 October 2026"
+      "version": "0.2.1",
+      "edition": "29 October 2026"
     },
     {
       "id": "tracking",
       "title": "Fish Tracking",
       "pdf": "Aquafab-Workbench-Fish-Tracking.pdf",
-      "version": "0.2.0",
-      "edition": "28 October 2026"
+      "version": "0.2.1",
+      "edition": "29 October 2026"
     },
     {
       "id": "analysis",
       "title": "Analysing and Exporting Results",
       "pdf": "Aquafab-Workbench-Analysis.pdf",
-      "version": "0.2.0",
-      "edition": "28 October 2026"
+      "version": "0.2.1",
+      "edition": "29 October 2026"
     }
   ]
 }
