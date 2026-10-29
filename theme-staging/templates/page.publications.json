@@ -1,0 +1,48 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "hero": {
+      "type": "af-page-hero",
+      "settings": {
+        "surface": "steel",
+        "show_crumbs": true,
+        "parent_label": "Research & Community",
+        "parent_link": "/pages/research",
+        "eyebrow": "Publications",
+        "heading": "Publications",
+        "text": "<p>Papers, theses and conference presentations produced with Aquafab flow chambers, respirometry systems and life-support equipment.</p>",
+        "btn1_label": "Submit a publication",
+        "btn1_link": "/pages/research-partners"
+      }
+    },
+    "list": {
+      "type": "af-publications",
+      "settings": {
+        "surface": "light"
+      }
+    },
+    "cite": {
+      "type": "af-rich",
+      "settings": {
+        "surface": "stone",
+        "width": "narrow",
+        "eyebrow": "Citing our equipment",
+        "heading": "Suggested citation",
+        "content": "<p><em>“Experiments were conducted in a [system name] (Aquafab Industries, LLC, Cincinnati, OH, USA).”</em></p><p>Send us your citation or DOI and we'll add it to this index and link it from the product page for the equipment you used.</p>"
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "list",
+    "cite"
+  ]
+}

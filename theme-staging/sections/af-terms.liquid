@@ -1,0 +1,23 @@
+<section{% if section.settings.anchor != blank %} id="{{ section.settings.anchor | handleize }}"{% endif %} class="af af--{{ section.settings.surface }}{% if section.settings.surface == 'steel' or section.settings.surface == 'deep' or section.settings.surface == 'slate' or section.settings.surface == 'photo' %} af--navy{% endif %} af-section{% if section.settings.padding == 'tight' %} af-section--tight{% elsif section.settings.padding == 'flush-top' %} af-section--flush-top{% endif %}">
+  <div class="af-container">
+    {%- render 'af-head', s: section.settings -%}
+    <div class="af-terms af-reveal">
+      {%- for block in section.blocks -%}
+        {%- assign b = block.settings -%}
+        <div class="af-term{% if b.highlight %} af-term--highlight{% endif %}" {{ block.shopify_attributes }}>
+          <div class="af-term__top">
+            {%- if b.label != blank -%}<span class="af-term__label">{{ b.label | escape }}</span>{%- endif -%}
+            {%- if b.icon != blank -%}<span class="af-term__icon">{% render 'af-icon', name: b.icon %}</span>{%- endif -%}
+          </div>
+          <div class="af-term__value">{{ b.value | escape }}</div>
+          {%- if b.text != blank -%}<div class="af-term__text">{{ b.text }}</div>{%- endif -%}
+        </div>
+      {%- endfor -%}
+    </div>
+    {%- if section.settings.note != blank -%}<div class="af-terms__note af-reveal">{{ section.settings.note }}</div>{%- endif -%}
+  </div>
+</section>
+
+{% schema %}
+{"name":"AF · Terms tiles","tag":"div","class":"af-section-wrapper","settings":[{"type":"select","id":"surface","label":"Background","options":[{"value":"light","label":"White"},{"value":"mist","label":"Mist (light gray)"},{"value":"ice","label":"Ice (light blue)"},{"value":"navy","label":"Navy gradient"},{"value":"blueprint","label":"Navy blueprint grid"},{"value":"stone","label":"Stone (warm light gray)"}],"default":"light"},{"type":"select","id":"padding","label":"Vertical spacing","options":[{"value":"normal","label":"Normal"},{"value":"tight","label":"Tight"},{"value":"flush-top","label":"No top spacing"}],"default":"normal"},{"type":"text","id":"anchor","label":"Anchor ID"},{"type":"header","content":"Heading"},{"type":"text","id":"eyebrow","label":"Eyebrow"},{"type":"text","id":"heading","label":"Heading"},{"type":"richtext","id":"lead","label":"Intro text"},{"type":"select","id":"head_align","label":"Heading alignment","options":[{"value":"left","label":"Left"},{"value":"center","label":"Center"},{"value":"split","label":"Split (heading left, intro right)"}],"default":"left"},{"type":"richtext","id":"note","label":"Footnote"}],"blocks":[{"type":"term","name":"Term","settings":[{"type":"text","id":"label","label":"Label","default":"Terms"},{"type":"text","id":"value","label":"Value","default":"NET 30"},{"type":"richtext","id":"text","label":"Description"},{"type":"text","id":"icon","label":"Icon name"},{"type":"checkbox","id":"highlight","label":"Highlight","default":false}]}],"presets":[{"name":"AF · Terms tiles","blocks":[{"type":"term"},{"type":"term"},{"type":"term"}]}]}
+{% endschema %}

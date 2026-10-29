@@ -1,0 +1,489 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "hero": {
+      "type": "af-page-hero",
+      "settings": {
+        "surface": "steel",
+        "show_crumbs": true,
+        "parent_label": "Systems",
+        "parent_link": "/pages/systems",
+        "eyebrow": "Swim tunnels & respirometry",
+        "use_resource_image": true,
+        "btn1_label": "Request a quote",
+        "btn1_link": "/pages/request-a-quote",
+        "btn2_label": "Talk to an engineer",
+        "btn2_link": "/pages/contact"
+      }
+    },
+    "cta": {
+      "type": "af-cta",
+      "settings": {
+        "surface": "light",
+        "style": "navy",
+        "eyebrow": "Don't see exactly what you need?",
+        "heading": "We'll build it.",
+        "text": "<p>Most of our systems start as a conversation. Describe your experiment and we'll design around it.</p>",
+        "show_contact": true,
+        "btn1_label": "Start a custom project",
+        "btn1_link": "/pages/custom-engineering",
+        "btn2_label": "Request a quote",
+        "btn2_link": "/pages/request-a-quote",
+        "image": "shopify://shop_images/af-flume-overhead.jpg"
+      }
+    },
+    "intro": {
+      "type": "af-split",
+      "settings": {
+        "surface": "navy",
+        "image": "shopify://shop_images/af-swim-school.png",
+        "ratio": "wide",
+        "reverse": true,
+        "eyebrow": "Respirometry, explained",
+        "heading": "Measure metabolism by measuring oxygen",
+        "lead": "<p>A respirometer seals an organism in a chamber of known volume and records how quickly it uses oxygen — the most direct way to measure metabolic rate in aquatic animals.</p>",
+        "body": "<p>In intermittent-flow respirometry, the tunnel alternates between a sealed measurement period and a flush with fresh, oxygenated water, so trials can run for hours or days without the animal becoming stressed.</p><ul><li>Swimming adds controlled flow for active metabolic rate</li><li>Resting and standard metabolic rate with the flow turned down</li><li>Temperature and oxygen control for stress and climate studies</li></ul>",
+        "checks": true
+      }
+    },
+    "uses": {
+      "type": "af-features",
+      "blocks": {
+        "u1": {
+          "type": "feature",
+          "settings": {
+            "icon": "thermometer",
+            "title": "Thermal tolerance",
+            "text": "<p>Metabolic response to warming, cooling and rapid tidal temperature swings.</p>"
+          }
+        },
+        "u2": {
+          "type": "feature",
+          "settings": {
+            "icon": "fish",
+            "title": "Swimming performance",
+            "text": "<p>Ucrit, fatigue, endurance and cost of transport in fish and other swimmers.</p>"
+          }
+        },
+        "u3": {
+          "type": "feature",
+          "settings": {
+            "icon": "droplet",
+            "title": "Hypoxia & water quality",
+            "text": "<p>Oxygen limits and recovery under controlled low-oxygen conditions.</p>"
+          }
+        },
+        "u4": {
+          "type": "feature",
+          "settings": {
+            "icon": "flask",
+            "title": "Ecotoxicology",
+            "text": "<p>Sub-lethal effects of pollutants and stressors on metabolism.</p>"
+          }
+        },
+        "u5": {
+          "type": "feature",
+          "settings": {
+            "icon": "chart",
+            "title": "Growth & aquaculture",
+            "text": "<p>Energy budgets and feeding studies for farmed and wild species.</p>"
+          }
+        },
+        "u6": {
+          "type": "feature",
+          "settings": {
+            "icon": "graduation",
+            "title": "Teaching physiology",
+            "text": "<p>Classic metabolic-rate labs with standard oxygen sensors.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "u2",
+        "u1",
+        "u3",
+        "u4",
+        "u5",
+        "u6"
+      ],
+      "settings": {
+        "surface": "light",
+        "eyebrow": "Applications",
+        "heading": "What researchers use swim tunnels and respirometers for",
+        "head_align": "left",
+        "columns": "3",
+        "style": "boxed"
+      }
+    },
+    "choose": {
+      "type": "af-features",
+      "blocks": {
+        "c1": {
+          "type": "feature",
+          "settings": {
+            "icon": "ruler",
+            "title": "Match the tunnel to the fish",
+            "text": "<p>A common guideline keeps the fish's cross-section under about 10% of the test section, with length for several body lengths. We help you size it.</p>"
+          }
+        },
+        "c2": {
+          "type": "feature",
+          "settings": {
+            "icon": "flow",
+            "title": "Standard or Alpha?",
+            "text": "<p>Standard sizes fit most animals from larval fish to large adults. Choose Alpha for custom dimensions, higher flows, multi-chamber layouts or rapid thermal cycling.</p>"
+          }
+        },
+        "c3": {
+          "type": "feature",
+          "settings": {
+            "icon": "thermometer",
+            "title": "Temperature protocol",
+            "text": "<p>Stable set-point, or programmable cycling from 0–50 °C at up to 5 °C/min.</p>"
+          }
+        },
+        "c4": {
+          "type": "feature",
+          "settings": {
+            "icon": "chip",
+            "title": "Automation level",
+            "text": "<p>Guided runs for teaching labs, or fully automated measure/flush cycles for multi-day trials.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "c1",
+        "c2",
+        "c3",
+        "c4"
+      ],
+      "settings": {
+        "surface": "slate",
+        "eyebrow": "How to choose",
+        "heading": "Choosing the right swim tunnel",
+        "head_align": "left",
+        "columns": "4",
+        "style": "numbered"
+      }
+    },
+    "software": {
+      "type": "af-features",
+      "blocks": {
+        "s1": {
+          "type": "feature",
+          "settings": {
+            "icon": "respirometry",
+            "title": "Measure / flush automation",
+            "text": "<p>Valve and pump control for sealed measurement and flush periods on your schedule.</p>"
+          }
+        },
+        "s2": {
+          "type": "feature",
+          "settings": {
+            "icon": "fish",
+            "title": "Ucrit & fatigue protocols",
+            "text": "<p>Ucrit step tests, fatigue and endurance trials with automatic velocity ramps and logged results.</p>"
+          }
+        },
+        "s3": {
+          "type": "feature",
+          "settings": {
+            "icon": "gauge",
+            "title": "Calibrated & logged",
+            "text": "<p>Guided calibration for flow, temperature and flush volume, with time-stamped logs of every cycle.</p>"
+          }
+        },
+        "s4": {
+          "type": "feature",
+          "settings": {
+            "icon": "thermometer",
+            "title": "Thermal cycling",
+            "text": "<p>Run respirometry under programmed temperature ramps and cycles alongside flushing.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "s2",
+        "s1",
+        "s4",
+        "s3"
+      ],
+      "settings": {
+        "surface": "stone",
+        "eyebrow": "Powered by Aquafab Workbench",
+        "heading": "Swim trials and respirometry, fully automated.",
+        "lead": "<p>Aquafab Workbench runs the velocity protocol, measure/flush cycle and thermal program for you — day and night — and records it all.</p>",
+        "head_align": "split",
+        "columns": "4",
+        "style": "boxed",
+        "btn1_label": "Explore Aquafab Workbench",
+        "btn1_link": "/pages/aquafab-workbench",
+        "btn1_style": "accent"
+      }
+    },
+    "faq": {
+      "type": "af-faq",
+      "blocks": {
+        "q1": {
+          "type": "q",
+          "settings": {
+            "question": "Which oxygen sensors do your systems use?",
+            "answer": "<p>Our systems are designed to work with standard research oxygen sensors, and we can integrate the meters your lab already owns. Tell us what you use when you configure.</p>"
+          }
+        },
+        "q2": {
+          "type": "q",
+          "settings": {
+            "question": "Can one system run several chambers?",
+            "answer": "<p>Yes. Multi-chamber configurations can be run and synchronized from Aquafab Workbench. Describe your setup in the builder.</p>"
+          }
+        },
+        "q3": {
+          "type": "q",
+          "settings": {
+            "question": "Can I use the system only as a swim tunnel, without respirometry?",
+            "answer": "<p>Yes. You can run pure swimming-performance work — Ucrit, fatigue and endurance — with no oxygen measurement. The same tunnel does respirometry whenever you need it.</p>"
+          }
+        },
+        "q4": {
+          "type": "q",
+          "settings": {
+            "question": "What size swim tunnel do I need?",
+            "answer": "<p>It depends on the size of your fish. Tell us the species and body length and we'll recommend a Standard size from 0.5 L to 100 L, or a custom Alpha build if nothing fits.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "q3",
+        "q4",
+        "q1",
+        "q2"
+      ],
+      "settings": {
+        "surface": "mist",
+        "eyebrow": "FAQ",
+        "heading": "Swim tunnel & respirometry questions"
+      }
+    },
+    "swim": {
+      "type": "af-split",
+      "settings": {
+        "surface": "light",
+        "image": "shopify://shop_images/af-swim-trout-closeup.png",
+        "ratio": "wide",
+        "reverse": false,
+        "eyebrow": "Fish swimming studies",
+        "heading": "Swim tunnels built for swimming-performance research",
+        "lead": "<p>Every Aquafab respirometer is a swim tunnel first: a clear acrylic test section with conditioned, calibrated flow that a fish swims against while the software runs the protocol and records the result.</p>",
+        "body": "<ul><li>Critical swimming speed (Ucrit) with automatic step-velocity protocols</li><li>Full fatigue and endurance trials, timed and logged</li><li>Oxygen consumption while swimming — active and maximum metabolic rate</li><li>Clear on every side for filming kinematics and behavior</li><li>Use it as a swim tunnel alone, or add respirometry whenever you need it</li></ul>",
+        "checks": true,
+        "btn1_label": "Standard swim tunnels (0.5–100 L)",
+        "btn1_link": "/products/standard-respirometry-system",
+        "btn2_label": "Custom Alpha system",
+        "btn2_link": "/products/alpha-respirometry-system",
+        "btn1_style": "accent"
+      }
+    },
+    "lines": {
+      "type": "af-cards",
+      "settings": {
+        "surface": "stone",
+        "eyebrow": "Two product lines",
+        "heading": "Alpha or Standard — pick your starting point",
+        "lead": "<p>Every Aquafab respirometer runs automated intermittent-flow trials in Aquafab Workbench. The difference is how much of the system is built around you.</p>",
+        "head_align": "split",
+        "columns": "2",
+        "card_style": "default",
+        "ratio": "4 / 3"
+      },
+      "blocks": {
+        "a": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/af-alpha-resp-lab.png",
+            "eyebrow": "Fully customizable",
+            "title": "Alpha Respirometry System",
+            "text": "<p>Our no-limits swim tunnel and respirometry platform. Test-section size, flow up to 500 cm/s, rapid thermal cycling, multiple chambers, sensors and materials are engineered around your animals and protocol.</p><ul><li>Custom dimensions, 2 in to 72+ in</li><li>Thermal cycling 0–50 °C at up to 5 °C/min</li><li>Operator console and integrated control cabinet</li></ul>",
+            "link_label": "Configure an Alpha system",
+            "link": "/products/alpha-respirometry-system"
+          }
+        },
+        "s": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/af-swim-rainbow-side.png",
+            "eyebrow": "Nine standard sizes",
+            "title": "Standard Respirometry System",
+            "text": "<p>Proven swim tunnels in fixed volumes — faster to quote and build, with the same software, flushing and calibration.</p><ul><li>0.5, 1, 1.5, 3, 5, 10, 20, 50 or 100 L</li><li>Integrated flush pump and flow calibration</li><li>Optional thermal control and sensor packages</li></ul>",
+            "link_label": "Choose a standard size",
+            "link": "/products/standard-respirometry-system"
+          }
+        }
+      },
+      "block_order": [
+        "a",
+        "s"
+      ]
+    },
+    "versus": {
+      "type": "af-table",
+      "settings": {
+        "surface": "mist",
+        "eyebrow": "Side by side",
+        "heading": "How Alpha and Standard compare",
+        "head_align": "left",
+        "h1": "Compare",
+        "h2": "Standard",
+        "h3": "Alpha"
+      },
+      "blocks": {
+        "r1": {
+          "type": "row",
+          "settings": {
+            "c1": "Chamber size",
+            "c2": "Nine volumes, 0.5 L to 100 L",
+            "c3": "Any size — 2 in to 72+ in, cross-sections to 36 × 36 in"
+          }
+        },
+        "r2": {
+          "type": "row",
+          "settings": {
+            "c1": "Flow",
+            "c2": "Sized to each standard tunnel",
+            "c3": "Up to 500 cm/s, pumps sized to your target velocity"
+          }
+        },
+        "r3": {
+          "type": "row",
+          "settings": {
+            "c1": "Thermal",
+            "c2": "Ambient, set-point or cycling options",
+            "c3": "0–50 °C with rapid cycling up to 5 °C/min"
+          }
+        },
+        "r4": {
+          "type": "row",
+          "settings": {
+            "c1": "Layout",
+            "c2": "Single swim tunnel",
+            "c3": "Single or multi-chamber, custom plumbing and reservoirs"
+          }
+        },
+        "r5": {
+          "type": "row",
+          "settings": {
+            "c1": "Software",
+            "c2": "Aquafab Workbench — every feature",
+            "c3": "Aquafab Workbench — every feature"
+          }
+        },
+        "r6": {
+          "type": "row",
+          "settings": {
+            "c1": "Best for",
+            "c2": "Most fish and invertebrate studies, teaching labs, fast lead times",
+            "c3": "Large or unusual animals, demanding thermal or flow protocols, core facilities"
+          }
+        }
+      },
+      "block_order": [
+        "r1",
+        "r2",
+        "r3",
+        "r4",
+        "r5",
+        "r6"
+      ]
+    },
+    "protocols": {
+      "type": "af-features",
+      "settings": {
+        "surface": "deep",
+        "eyebrow": "Swim studies",
+        "heading": "What you can run in an Aquafab swim tunnel",
+        "head_align": "left",
+        "columns": "3",
+        "style": "boxed"
+      },
+      "blocks": {
+        "p1": {
+          "type": "feature",
+          "settings": {
+            "icon": "gauge",
+            "title": "Critical swimming speed (Ucrit)",
+            "text": "<p>Step the current up at set intervals until the fish fatigues. The software runs the ramp and logs the speed and time.</p>"
+          }
+        },
+        "p2": {
+          "type": "feature",
+          "settings": {
+            "icon": "clock",
+            "title": "Fatigue & endurance",
+            "text": "<p>Hold a fixed speed, or repeat bouts, and record time to fatigue and recovery for full swim-performance studies.</p>"
+          }
+        },
+        "p3": {
+          "type": "feature",
+          "settings": {
+            "icon": "respirometry",
+            "title": "Swimming energetics",
+            "text": "<p>Measure oxygen use at each speed for cost of transport, active metabolic rate and aerobic scope.</p>"
+          }
+        },
+        "p4": {
+          "type": "feature",
+          "settings": {
+            "icon": "video",
+            "title": "Kinematics & behavior",
+            "text": "<p>High-clarity acrylic lets you film from the sides and above for tail-beat, gait and station-holding analysis.</p>"
+          }
+        },
+        "p5": {
+          "type": "feature",
+          "settings": {
+            "icon": "thermometer",
+            "title": "Performance across temperature",
+            "text": "<p>Add thermal control to run the same swim protocol at different temperatures or through a thermal ramp.</p>"
+          }
+        },
+        "p6": {
+          "type": "feature",
+          "settings": {
+            "icon": "flow",
+            "title": "Flow you can trust",
+            "text": "<p>Flow straighteners and guided calibration — or PIV flow calibration — so the speed you set is the speed the fish swims.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "p1",
+        "p2",
+        "p3",
+        "p4",
+        "p5",
+        "p6"
+      ]
+    }
+  },
+  "order": [
+    "hero",
+    "swim",
+    "protocols",
+    "lines",
+    "versus",
+    "intro",
+    "uses",
+    "choose",
+    "software",
+    "faq",
+    "cta"
+  ]
+}

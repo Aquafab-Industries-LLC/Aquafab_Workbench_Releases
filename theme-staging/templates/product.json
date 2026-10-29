@@ -1,0 +1,78 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "af-product-main",
+      "settings": {},
+      "blocks": {
+        "a1": {
+          "type": "assurance",
+          "settings": {
+            "icon": "pin",
+            "text": "<p><strong>Designed, fabricated and tested</strong> in Cincinnati, Ohio</p>"
+          }
+        },
+        "a2": {
+          "type": "assurance",
+          "settings": {
+            "icon": "gauge",
+            "text": "<p><strong>Runs on Aquafab Workbench</strong> — programming, calibration and data logging built in</p>"
+          }
+        },
+        "a3": {
+          "type": "assurance",
+          "settings": {
+            "icon": "support",
+            "text": "<p><strong>Lifetime technical support</strong>, plus optional installation and training</p>"
+          }
+        }
+      },
+      "block_order": [
+        "a1",
+        "a2",
+        "a3"
+      ]
+    },
+    "configurator": {
+      "type": "af-configurator",
+      "settings": {
+        "eyebrow": "System builder",
+        "heading": "Configure your system"
+      }
+    },
+    "details": {
+      "type": "af-product-details",
+      "settings": {}
+    },
+    "cta": {
+      "type": "af-cta",
+      "settings": {
+        "surface": "light",
+        "style": "navy",
+        "eyebrow": "Questions?",
+        "heading": "Talk it through with an engineer.",
+        "text": "<p>Not sure which options fit your protocol? We're happy to help you specify the right system — no obligation.</p>",
+        "show_contact": true,
+        "btn1_label": "Contact an engineer",
+        "btn1_link": "/pages/contact",
+        "btn2_label": "Purchasing & terms",
+        "btn2_link": "/pages/procurement",
+        "image": "shopify://shop_images/af-flume-overhead.jpg"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "configurator",
+    "details",
+    "cta"
+  ]
+}

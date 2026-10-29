@@ -1,0 +1,69 @@
+{%- liquid
+  assign scroll = section.settings.scroll
+  if section.blocks.size < 3
+    assign scroll = false
+  endif
+  # one half of the track repeats the names until it is wider than a large monitor,
+  # so the loop never shows a gap; the second half is the seamless copy
+  assign reps = 1
+  if scroll
+    assign reps = 12 | divided_by: section.blocks.size | at_least: 2
+  endif
+  assign dur = section.blocks.size | times: reps | times: 6
+-%}
+<section{% if section.settings.anchor != blank %} id="{{ section.settings.anchor | handleize }}"{% endif %} class="af af--{{ section.settings.surface }}{% if section.settings.surface == 'steel' or section.settings.surface == 'deep' or section.settings.surface == 'slate' or section.settings.surface == 'photo' %} af--navy{% endif %} af-section{% if section.settings.padding == 'tight' %} af-section--tight{% elsif section.settings.padding == 'flush-top' %} af-section--flush-top{% endif %}">
+  <div class="af-container">
+    {%- if section.settings.label != blank -%}<div class="af-trust__label">{{ section.settings.label | escape }}</div>{%- endif -%}
+    <div class="af-trust2{% if scroll %} af-trust2--scroll{% endif %} af-reveal" style="--af-trust-dur: {{ dur }}s">
+      <div class="af-trust2__track">
+        {%- for half in (1..2) -%}
+          {%- if half == 2 and scroll == false -%}{%- break -%}{%- endif -%}
+          <ul class="af-trust2__list"{% if half == 2 %} aria-hidden="true"{% endif %}>
+            {%- for r in (1..reps) -%}
+              {%- for block in section.blocks -%}
+                <li class="af-trust2__item"{% if half == 1 and r == 1 %} {{ block.shopify_attributes }}{% endif %}{% if r > 1 %} aria-hidden="true"{% endif %}>
+                  {%- if block.settings.logo -%}<span class="af-trust__logo{% if block.settings.logo_only %} af-trust__logo--wide{% endif %}">{{ block.settings.logo | image_url: width: 320 | image_tag: loading: 'lazy', alt: block.settings.name }}</span>{%- endif -%}
+                  {%- unless block.settings.logo and block.settings.logo_only -%}<span class="af-trust__name">{{ block.settings.name | escape }}</span>{%- endunless -%}
+                </li>
+              {%- endfor -%}
+            {%- endfor -%}
+          </ul>
+        {%- endfor -%}
+      </div>
+    </div>
+    {%- if section.settings.more_label != blank -%}<div class="af-trust2__more"><a class="af-trust__more" href="{{ section.settings.more_link | default: '/pages/who-we-serve' }}">{{ section.settings.more_label | escape }}</a></div>{%- endif -%}
+  </div>
+</section>
+
+{% stylesheet %}
+  /* Names only, split by a short rule (Chris 2026-10-29: the generic icons read as
+     placeholders). With three or more names the row drifts slowly, pauses under the
+     pointer, and stands still for anyone who asked for reduced motion. */
+  .af-trust2 { position: relative; overflow: hidden; }
+  .af-trust2__track { display: flex; width: max-content; margin-inline: auto; }
+  .af-trust2__list { display: flex; align-items: center; list-style: none; margin: 0; padding: 0; flex-wrap: wrap; justify-content: center; row-gap: 10px; }
+  .af-trust2__item { display: inline-flex; align-items: center; gap: 10px; font-family: var(--af-font-display); font-size: clamp(1rem, 1.4vw, 1.2rem); font-weight: 600; color: var(--af-navy); opacity: 0.8; letter-spacing: -0.01em; white-space: nowrap; }
+  .af-trust2__item::after { content: ''; width: 28px; height: 1px; background: currentColor; opacity: 0.35; margin-inline: 28px; }
+  .af-trust2:not(.af-trust2--scroll) .af-trust2__item:last-child::after { display: none; }
+  .af--navy .af-trust2__item, .af--blueprint .af-trust2__item { color: #fff; }
+  .af-trust2--scroll { -webkit-mask-image: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent); mask-image: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent); }
+  .af-trust2--scroll .af-trust2__track { margin-inline: 0; animation: af-trust-drift var(--af-trust-dur, 72s) linear infinite; }
+  .af-trust2--scroll .af-trust2__list { flex-wrap: nowrap; }
+  .af-trust2--scroll:hover .af-trust2__track, .af-trust2--scroll:focus-within .af-trust2__track { animation-play-state: paused; }
+  @keyframes af-trust-drift { to { transform: translateX(-50%); } }
+  @media (prefers-reduced-motion: reduce) {
+    .af-trust2--scroll { -webkit-mask-image: none; mask-image: none; }
+    .af-trust2--scroll .af-trust2__track { animation: none; width: auto; margin-inline: auto; }
+    .af-trust2--scroll .af-trust2__list { flex-wrap: wrap; }
+    .af-trust2--scroll .af-trust2__list + .af-trust2__list, .af-trust2--scroll [aria-hidden='true'] { display: none; }
+    .af-trust2--scroll .af-trust2__list > .af-trust2__item:nth-last-child(1 of :not([aria-hidden]))::after { display: none; }
+  }
+  .af-trust2__more { text-align: center; margin-top: 22px; }
+  .af-trust__logo { display: inline-flex; align-items: center; flex: none; height: 34px; }
+  .af-trust__logo img { height: 34px; width: auto; max-width: 48px; object-fit: contain; display: block; }
+  .af-trust__logo--wide img { height: 30px; max-width: 170px; }
+{% endstylesheet %}
+
+{% schema %}
+{"name":"AF · Trust strip","tag":"div","class":"af-section-wrapper","settings":[{"type":"select","id":"surface","label":"Background","options":[{"value":"light","label":"White"},{"value":"mist","label":"Mist (light gray)"},{"value":"ice","label":"Light gray (same as Mist)"},{"value":"navy","label":"Navy gradient"},{"value":"blueprint","label":"Navy blueprint grid"},{"value":"deep","label":"Deep water (teal to navy)"},{"value":"slate","label":"Slate (dark charcoal)"},{"value":"stone","label":"Stone (warm light gray)"}],"default":"light"},{"type":"select","id":"padding","label":"Vertical spacing","options":[{"value":"normal","label":"Normal"},{"value":"tight","label":"Tight"},{"value":"flush-top","label":"No top spacing"}],"default":"tight"},{"type":"text","id":"anchor","label":"Anchor ID","info":"Optional. Lets you link to this section with #anchor-id"},{"type":"text","id":"label","label":"Label","default":"Trusted by research and teaching programs at"},{"type":"checkbox","id":"scroll","label":"Scroll the names slowly","info":"Needs three or more names. Pauses on hover; stays still for visitors who turn off motion.","default":true},{"type":"text","id":"more_label","label":"More link label","default":"+ more institutions"},{"type":"url","id":"more_link","label":"More link"}],"blocks":[{"type":"item","name":"Institution","settings":[{"type":"text","id":"name","label":"Name","default":"Institution"},{"type":"image_picker","id":"logo","label":"Logo (optional)","info":"Shown small beside the name. Use the institution's square mark or shield."},{"type":"checkbox","id":"logo_only","label":"Logo already includes the name","info":"For a wordmark logo: shows the logo wider and hides the typed name.","default":false}]}],"presets":[{"name":"AF · Trust strip","blocks":[{"type":"item"},{"type":"item"},{"type":"item"}]}]}
+{% endschema %}

@@ -1,0 +1,284 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "hero": {
+      "type": "af-page-hero",
+      "settings": {
+        "surface": "steel",
+        "show_crumbs": true,
+        "parent_label": "Systems",
+        "parent_link": "/pages/systems",
+        "eyebrow": "Software & control",
+        "use_resource_image": true,
+        "btn1_label": "Explore Aquafab Workbench",
+        "btn1_link": "/pages/aquafab-workbench",
+        "btn2_label": "Talk to an engineer",
+        "btn2_link": "/pages/contact"
+      }
+    },
+    "intro": {
+      "type": "af-split",
+      "settings": {
+        "surface": "light",
+        "image": "shopify://shop_images/af-ws-analysis-overlay.jpg",
+        "ratio": "wide",
+        "reverse": false,
+        "eyebrow": "The Aquafab ecosystem",
+        "heading": "The software that runs every Aquafab system",
+        "lead": "<p>Aquafab Workbench programs the experiment, runs pumps, valves, heaters and sensors, keeps everything calibrated and records the data — so your protocol runs exactly as written, day and night.</p>",
+        "body": "<ul><li>Included with Alpha systems, swim tunnels and teaching flow chambers</li><li>Retrofits for tanks, flumes and racks you already own</li><li>PIV flow calibration for true test-section velocity</li></ul>",
+        "checks": true,
+        "btn1_label": "See everything it does",
+        "btn1_link": "/pages/aquafab-workbench",
+        "screen": true
+      }
+    },
+    "uses": {
+      "type": "af-features",
+      "blocks": {
+        "u1": {
+          "type": "feature",
+          "settings": {
+            "icon": "wave",
+            "title": "Tidal & diurnal cycles",
+            "text": "<p>Temperature, flow and light that follow real-world patterns.</p>"
+          }
+        },
+        "u2": {
+          "type": "feature",
+          "settings": {
+            "icon": "respirometry",
+            "title": "Respirometry",
+            "text": "<p>Measure/flush cycles for intermittent-flow protocols.</p>"
+          }
+        },
+        "u3": {
+          "type": "feature",
+          "settings": {
+            "icon": "droplet",
+            "title": "Dissolved oxygen",
+            "text": "<p>Oxygen control for hypoxia studies.</p>"
+          }
+        },
+        "u4": {
+          "type": "feature",
+          "settings": {
+            "icon": "layers",
+            "title": "Multi-system experiments",
+            "text": "<p>Synchronize several systems in one study.</p>"
+          }
+        },
+        "u5": {
+          "type": "feature",
+          "settings": {
+            "icon": "gauge",
+            "title": "Calibration",
+            "text": "<p>PID wizards and PIV flow calibration.</p>"
+          }
+        },
+        "u6": {
+          "type": "feature",
+          "settings": {
+            "icon": "bolt",
+            "title": "Alerts & self-monitoring",
+            "text": "<p>Remote status and service reminders.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "u1",
+        "u2",
+        "u3",
+        "u4",
+        "u5",
+        "u6"
+      ],
+      "settings": {
+        "surface": "deep",
+        "eyebrow": "Applications",
+        "heading": "What it automates",
+        "head_align": "left",
+        "columns": "3",
+        "style": "boxed"
+      }
+    },
+    "grid": {
+      "type": "af-products",
+      "settings": {
+        "surface": "stone",
+        "eyebrow": "Products",
+        "heading": "Control systems, retrofits and calibration",
+        "lead": "<p>Everything here is configured to your equipment and protocol — build your configuration and we'll return an itemized quote.</p>",
+        "head_align": "split",
+        "limit": 24
+      }
+    },
+    "software": {
+      "type": "af-features",
+      "blocks": {
+        "s1": {
+          "type": "feature",
+          "settings": {
+            "icon": "calendar",
+            "title": "Trial programming",
+            "text": "<p>Build protocols once and repeat them exactly.</p>"
+          }
+        },
+        "s2": {
+          "type": "feature",
+          "settings": {
+            "icon": "chart",
+            "title": "Data you can export",
+            "text": "<p>Time-stamped logs for analysis in your preferred software.</p>"
+          }
+        },
+        "s3": {
+          "type": "feature",
+          "settings": {
+            "icon": "support",
+            "title": "Supported for life",
+            "text": "<p>Updates for supported systems and engineers who know your setup.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "s1",
+        "s2",
+        "s3"
+      ],
+      "settings": {
+        "surface": "navy",
+        "eyebrow": "Powered by Aquafab Workbench",
+        "heading": "Learn it once. Use it on everything.",
+        "lead": "<p>The same interface runs a classroom flume and a 50-foot research system, so your lab's knowledge carries from one experiment to the next.</p>",
+        "head_align": "split",
+        "columns": "3",
+        "style": "boxed",
+        "btn1_label": "Explore Aquafab Workbench",
+        "btn1_link": "/pages/aquafab-workbench",
+        "btn1_style": "accent"
+      }
+    },
+    "included": {
+      "type": "af-features",
+      "settings": {
+        "surface": "mist",
+        "eyebrow": "With every system",
+        "heading": "More than equipment.",
+        "head_align": "left",
+        "columns": "4",
+        "style": "lined"
+      },
+      "blocks": {
+        "i1": {
+          "type": "feature",
+          "settings": {
+            "icon": "pencil",
+            "title": "Engineering review",
+            "text": "<p>Every configuration is checked by an engineer before we quote or build.</p>"
+          }
+        },
+        "i2": {
+          "type": "feature",
+          "settings": {
+            "icon": "check",
+            "title": "Factory-tested",
+            "text": "<p>Assembled, leak-tested and run in Cincinnati before it ships.</p>"
+          }
+        },
+        "i3": {
+          "type": "feature",
+          "settings": {
+            "icon": "book",
+            "title": "Documentation",
+            "text": "<p>Manuals, calibration records and Aquafab Workbench software.</p>"
+          }
+        },
+        "i4": {
+          "type": "feature",
+          "settings": {
+            "icon": "support",
+            "title": "Lifetime support",
+            "text": "<p>Direct access to the engineers who built your system.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "i1",
+        "i2",
+        "i3",
+        "i4"
+      ]
+    },
+    "faq": {
+      "type": "af-faq",
+      "blocks": {
+        "q1": {
+          "type": "q",
+          "settings": {
+            "question": "Is Aquafab Workbench included with my system?",
+            "answer": "<p>Yes — it's included with every Alpha system, swim tunnel and teaching flow chamber.</p>"
+          }
+        },
+        "q2": {
+          "type": "q",
+          "settings": {
+            "question": "Can it control equipment from other manufacturers?",
+            "answer": "<p>Often, yes. We regularly integrate third-party pumps, chillers and sensors.</p>"
+          }
+        },
+        "q3": {
+          "type": "q",
+          "settings": {
+            "question": "What is PIV flow calibration?",
+            "answer": "<p>Particle image velocimetry measures real water velocity in your test section so trials can be programmed in cm/s. <a href=\"/products/piv-flow-calibration\">Learn more</a>.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "q1",
+        "q2",
+        "q3"
+      ],
+      "settings": {
+        "surface": "light",
+        "eyebrow": "FAQ",
+        "heading": "Software questions"
+      }
+    },
+    "cta": {
+      "type": "af-cta",
+      "settings": {
+        "surface": "light",
+        "style": "navy",
+        "eyebrow": "Retrofit or upgrade",
+        "heading": "Put Aquafab Workbench on the equipment you already own.",
+        "text": "<p>Tell us about your tanks, flumes, pumps and sensors — we'll specify the console, I/O and calibration.</p>",
+        "show_contact": true,
+        "btn1_label": "Configure a control system",
+        "btn1_link": "/products/aquafab-lab-controller",
+        "btn2_label": "Talk to an engineer",
+        "btn2_link": "/pages/contact",
+        "image": "shopify://shop_images/af-software-workstation.jpg"
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "intro",
+    "uses",
+    "grid",
+    "software",
+    "included",
+    "faq",
+    "cta"
+  ]
+}

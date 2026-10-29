@@ -1,0 +1,94 @@
+{%- liquid
+  assign cfg = product.metafields.aquafab.configurator.value
+  assign specs = product.metafields.aquafab.specs.value
+  assign apps = product.metafields.aquafab.applications.value
+  assign has_res = false
+  for r in shop.metaobjects.aquafab_resource.values
+    for p in r.products.value
+      if p.id == product.id
+        assign has_res = true
+      endif
+    endfor
+  endfor
+-%}
+<section class="af af--light af-section">
+  <div class="af-container">
+    <div data-af-tabs>
+      <div class="af-tabs__list" role="tablist">
+        <button class="af-tabs__btn" role="tab" id="t-ov" aria-controls="p-ov" aria-selected="true">Overview</button>
+        {%- if specs != blank -%}<button class="af-tabs__btn" role="tab" id="t-sp" aria-controls="p-sp" aria-selected="false">Specifications</button>{%- endif -%}
+        {%- if cfg.groups != blank -%}<button class="af-tabs__btn" role="tab" id="t-op" aria-controls="p-op" aria-selected="false">Options explained</button>{%- endif -%}
+        {%- if apps != blank -%}<button class="af-tabs__btn" role="tab" id="t-ap" aria-controls="p-ap" aria-selected="false">Applications</button>{%- endif -%}
+        <button class="af-tabs__btn" role="tab" id="t-dl" aria-controls="p-dl" aria-selected="false">Documents &amp; software</button>
+        <button class="af-tabs__btn" role="tab" id="t-su" aria-controls="p-su" aria-selected="false">Service &amp; warranty</button>
+      </div>
+
+      <div class="af-tabs__panel" role="tabpanel" id="p-ov" aria-labelledby="t-ov">
+        <div class="af-rte af-rte--checks" style="max-width:53.75rem">{{ product.description }}</div>
+      </div>
+
+      {%- if specs != blank -%}
+        <div class="af-tabs__panel" role="tabpanel" id="p-sp" aria-labelledby="t-sp" hidden>
+          <div class="af-table-wrap"><table class="af-table"><tbody>
+            {%- for g in specs -%}
+              <tr class="af-table__group"><td colspan="2">{{ g.group | escape }}</td></tr>
+              {%- for row in g.rows -%}<tr><td>{{ row[0] | escape }}</td><td>{{ row[1] | escape }}</td></tr>{%- endfor -%}
+            {%- endfor -%}
+          </tbody></table></div>
+          <p class="af-small af-muted" style="margin-top:14px">Specifications describe standard builds. Every Aquafab system can be adapted — ask us about dimensions, materials or performance outside these ranges.</p>
+        </div>
+      {%- endif -%}
+
+      {%- if cfg.groups != blank -%}
+        <div class="af-tabs__panel" role="tabpanel" id="p-op" aria-labelledby="t-op" hidden>
+          <div class="af-table-wrap"><table class="af-table">
+            <thead><tr><th scope="col">Option</th><th scope="col">Choice</th><th scope="col">What it means</th></tr></thead>
+            <tbody>
+            {%- for group in cfg.groups -%}
+              {%- if group.choices != blank -%}
+                {%- for c in group.choices -%}
+                  <tr><td>{% if forloop.first %}{{ group.title | escape }}{% endif %}</td><td style="font-weight:600;color:var(--af-ink);white-space:nowrap">{{ c.name | escape }}</td><td>{{ c.desc | escape }}</td></tr>
+                {%- endfor -%}
+              {%- endif -%}
+            {%- endfor -%}
+            </tbody>
+          </table></div>
+        </div>
+      {%- endif -%}
+
+      {%- if apps != blank -%}
+        <div class="af-tabs__panel" role="tabpanel" id="p-ap" aria-labelledby="t-ap" hidden>
+          <ul class="af-checklist" style="max-width:53.75rem">
+            {%- assign lines = apps | newline_to_br | split: '<br />' -%}
+            {%- for l in lines -%}{%- assign t = l | strip -%}{%- if t != blank -%}<li>{{ t | escape }}</li>{%- endif -%}{%- endfor -%}
+          </ul>
+        </div>
+      {%- endif -%}
+
+      <div class="af-tabs__panel" role="tabpanel" id="p-dl" aria-labelledby="t-dl" hidden>
+        {%- if has_res -%}
+          <div class="af-lib__list">
+            {%- for r in shop.metaobjects.aquafab_resource.values -%}
+              {%- assign match = false -%}
+              {%- for p in r.products.value -%}{%- if p.id == product.id -%}{%- assign match = true -%}{%- endif -%}{%- endfor -%}
+              {%- if match -%}{%- render 'af-resource-row', r: r -%}{%- endif -%}
+            {%- endfor -%}
+          </div>
+        {%- else -%}
+          <div class="af-empty">
+            <p><strong>Manuals, quick-start guides and Aquafab Workbench software are delivered with every system</strong> and are available to owners in our Resource Library.</p>
+            <div class="af-btns af-btns--center"><a class="af-btn" href="/pages/resources">Open the Resource Library</a><a class="af-btn af-btn--ghost" href="/pages/support">Request a document</a></div>
+          </div>
+        {%- endif -%}
+      </div>
+
+      <div class="af-tabs__panel" role="tabpanel" id="p-su" aria-labelledby="t-su" hidden>
+        <div class="af-rte af-rte--checks" style="max-width:53.75rem">{{ section.settings.service }}</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{"name":"AF · Product details","tag":"div","class":"af-section-wrapper","settings":[{"type":"richtext","id":"service","label":"Service & warranty text","default":"<p>Every Aquafab system is backed by the people who designed and built it.</p><ul><li><strong>Warranty:</strong> standard systems include a 2-year warranty on Aquafab-fabricated components and electronics.</li><li><strong>Lifetime support:</strong> phone, email and remote support for as long as you own the system.</li><li><strong>Installation &amp; training:</strong> optional on-site installation, commissioning and hands-on training for your lab or teaching staff.</li><li><strong>Maintenance:</strong> on-site maintenance visits and replacement parts on request.</li></ul>"}],"presets":[{"name":"AF · Product details"}]}
+{% endschema %}

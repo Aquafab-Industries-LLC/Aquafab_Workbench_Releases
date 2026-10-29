@@ -1,0 +1,38 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "hero": {
+      "type": "af-page-hero",
+      "settings": {
+        "surface": "steel",
+        "show_crumbs": true,
+        "parent_label": "Research & Community",
+        "parent_link": "/pages/research",
+        "eyebrow": "Research spotlights",
+        "text": "<p>Case studies from the labs, classrooms and facilities that use Aquafab systems.</p>",
+        "btn1_label": "Get your work featured",
+        "btn1_link": "/pages/research-partners",
+        "btn1_style": "accent"
+      }
+    },
+    "list": {
+      "type": "af-articles",
+      "settings": {
+        "surface": "light",
+        "limit": 12
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "list"
+  ]
+}
