@@ -1,0 +1,110 @@
+{%- liquid
+  assign mode = product.metafields.aquafab.purchase_mode.value | default: 'quote'
+  assign tagline = product.metafields.aquafab.tagline.value
+  assign summary = product.metafields.aquafab.summary.value
+  assign specs = product.metafields.aquafab.key_specs.value
+  assign af_ic = product.metafields.aquafab.icon.value | default: 'flow'
+  assign coll = product.collections.first
+  assign priced = false
+  if mode == 'buy' and product.price > 0
+    assign priced = true
+  endif
+-%}
+<section class="af af--light af-section" style="padding-top:clamp(32px,4vw,56px)">
+  <div class="af-container">
+    <nav aria-label="Breadcrumb">
+      <ol class="af-crumbs">
+        <li><a href="{{ routes.root_url }}">Home</a></li>
+        <li><a href="/pages/systems">Systems</a></li>
+        {%- if coll -%}<li><a href="{{ coll.url }}">{{ coll.title | escape }}</a></li>{%- endif -%}
+        <li aria-current="page">{{ product.title | escape }}</li>
+      </ol>
+    </nav>
+    <div class="af-pdp">
+      <div class="af-pdp__gallery" data-af-gallery>
+        <div class="af-pdp__main-media">
+          {%- if product.featured_media -%}
+            {{ product.featured_media | image_url: width: 1600 | image_tag: widths: '600,900,1200,1600', sizes: '(min-width: 960px) 55vw, 100vw', loading: 'eager', fetchpriority: 'high', alt: product.featured_media.alt | default: product.title, class: 'af-gallery-main' }}
+          {%- else -%}
+            <div class="af-pcard__placeholder">{% render 'af-icon', name: af_ic %}</div>
+          {%- endif -%}
+        </div>
+        {%- if product.media.size > 1 -%}
+          <div class="af-pdp__thumbs">
+            {%- for media in product.media limit: 10 -%}
+              {%- if media.media_type == 'image' -%}
+                <button type="button" class="af-pdp__thumb" data-af-thumb aria-current="{% if forloop.first %}true{% else %}false{% endif %}" aria-label="Show image {{ forloop.index }}" data-src="{{ media | image_url: width: 1600 }}" data-srcset="{{ media | image_url: width: 900 }} 900w, {{ media | image_url: width: 1600 }} 1600w" data-alt="{{ media.alt | escape }}">
+                  {{ media | image_url: width: 200 | image_tag: loading: 'lazy', alt: '' }}
+                </button>
+              {%- endif -%}
+            {%- endfor -%}
+          </div>
+        {%- endif -%}
+      </div>
+
+      <div class="af-pdp__info">
+        {%- if product.type != blank -%}<p class="af-eyebrow">{{ product.type | escape }}</p>{%- endif -%}
+        <h1 class="af-pdp__title">{{ product.title | escape }}</h1>
+        {%- if tagline != blank -%}<p class="af-pdp__tagline">{{ tagline | escape }}</p>{%- endif -%}
+
+        <div class="af-pdp__price">
+          {%- if priced -%}
+            <span class="af-pdp__price-value">{% if product.price_varies %}From {% endif %}{{ product.price | money_without_trailing_zeros }}</span>
+            <span class="af-pdp__price-note">Configure below for an exact price</span>
+          {%- else -%}
+            <span class="af-pdp__price-value">Quoted to specification</span>
+            <span class="af-pdp__price-note">Itemized quote, typically within 2 business days</span>
+          {%- endif -%}
+        </div>
+
+        <div class="af-pdp__desc af-rte">
+          {%- if summary != blank -%}
+            <p>{{ summary | escape | newline_to_br }}</p>
+          {%- else -%}
+            <p>{{ product.description | strip_html | truncatewords: 60 }}</p>
+          {%- endif -%}
+        </div>
+
+        {%- if specs != blank -%}
+          <div class="af-pdp__specs af-specs">
+            {%- for spec in specs -%}
+              <div class="af-spec"><div class="af-spec__label">{{ spec.label | escape }}</div><div class="af-spec__value">{{ spec.value | escape }}</div></div>
+            {%- endfor -%}
+          </div>
+        {%- endif -%}
+
+        <div class="af-btns">
+          <a class="af-btn af-btn--accent" href="#configure">{% if priced %}Choose options{% else %}Configure &amp; request quote{% endif %}</a>
+          <a class="af-btn af-btn--ghost" href="/pages/contact?topic={{ product.title | url_encode }}">Talk to an engineer</a>
+        </div>
+
+        {%- if section.blocks.size > 0 -%}
+          <div class="af-pdp__assurances">
+            {%- for block in section.blocks -%}
+              <div class="af-pdp__assurance" {{ block.shopify_attributes }}>{% render 'af-icon', name: block.settings.icon %}<div>{{ block.settings.text }}</div></div>
+            {%- endfor -%}
+          </div>
+        {%- endif -%}
+      </div>
+    </div>
+  </div>
+</section>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": {{ product.title | json }},
+  "description": {{ product.description | strip_html | truncatewords: 60 | json }},
+  "brand": { "@type": "Brand", "name": "Aquafab Industries" },
+  "category": {{ product.type | json }},
+  {%- if product.featured_media %}"image": {{ product.featured_media | image_url: width: 1200 | prepend: 'https:' | json }},{% endif %}
+  "url": {{ request.origin | append: product.url | json }}
+  {%- if priced -%},
+  "offers": { "@type": "AggregateOffer", "priceCurrency": {{ cart.currency.iso_code | json }}, "lowPrice": {{ product.price_min | divided_by: 100.0 | json }}, "highPrice": {{ product.price_max | divided_by: 100.0 | json }}, "availability": "https://schema.org/InStock" }
+  {%- endif %}
+}
+</script>
+
+{% schema %}
+{"name":"AF · Product overview","tag":"div","class":"af-section-wrapper","settings":[{"type":"paragraph","content":"Content comes from the product: title, type, images, and the Aquafab metafields (tagline, summary, key specs, purchase mode)."}],"blocks":[{"type":"assurance","name":"Assurance","limit":5,"settings":[{"type":"select","id":"icon","label":"Icon","options":[{"value":"check","label":"Check"},{"value":"shield","label":"Shield"},{"value":"truck","label":"Truck"},{"value":"invoice","label":"Invoice"},{"value":"support","label":"Support"},{"value":"wrench","label":"Wrench"},{"value":"pin","label":"Location"},{"value":"software","label":"Software"},{"value":"graduation","label":"Training"}],"default":"check"},{"type":"richtext","id":"text","label":"Text","default":"<p>Designed, fabricated and tested in Cincinnati, Ohio</p>"}]}],"presets":[{"name":"AF · Product overview"}]}
+{% endschema %}

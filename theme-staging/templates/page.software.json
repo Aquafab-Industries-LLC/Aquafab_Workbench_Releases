@@ -1,0 +1,665 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "hero": {
+      "type": "af-page-hero",
+      "settings": {
+        "surface": "blueprint",
+        "show_crumbs": true,
+        "parent_label": "Systems",
+        "parent_link": "/pages/systems",
+        "eyebrow": "Software",
+        "heading": "Aquafab Workbench",
+        "text": "<p>One software for everything — control, monitoring and analysis for every Aquafab system. Guided wizards build your calibrations and trial curves, the system runs them day and night, and every trial is logged so you can analyze it, share it or run it again.</p>",
+        "image": "shopify://shop_images/af-alpha-resp-lab.png",
+        "btn1_label": "Buy a license",
+        "btn1_link": "/products/aquafab-workbench-license",
+        "btn1_style": "accent",
+        "btn2_label": "Try the preview",
+        "btn2_link": "#downloads"
+      }
+    },
+    "features": {
+      "type": "af-features",
+      "blocks": {
+        "f1": {
+          "type": "feature",
+          "settings": {
+            "icon": "globe",
+            "title": "Remote access, no account",
+            "text": "<p>Check temperatures and trial progress from a laptop or phone, anywhere. Pair once with a code shown on the machine; everything is encrypted end to end.</p>"
+          }
+        },
+        "f2": {
+          "type": "feature",
+          "settings": {
+            "icon": "layers",
+            "title": "Multiple systems at once",
+            "text": "<p>Run and monitor several systems simultaneously from one software.</p>"
+          }
+        },
+        "f3": {
+          "type": "feature",
+          "settings": {
+            "icon": "calendar",
+            "title": "Trial history & re-runs",
+            "text": "<p>Every trial is logged with its settings and data — review the history or run it again exactly.</p>"
+          }
+        },
+        "f4": {
+          "type": "feature",
+          "settings": {
+            "icon": "bolt",
+            "title": "Smart features",
+            "text": "<p>Self-monitoring flags components that need service and alerts you when conditions drift.</p>"
+          }
+        },
+        "f5": {
+          "type": "feature",
+          "settings": {
+            "icon": "chart",
+            "title": "Data logging & export",
+            "text": "<p>Time-stamped set-points and sensor readings for every trial, exportable for analysis.</p>"
+          }
+        },
+        "f6": {
+          "type": "feature",
+          "settings": {
+            "icon": "chip",
+            "title": "Integration & retrofits",
+            "text": "<p>Works with third-party sensors and equipment, and retrofits tanks and flumes you already own.</p>"
+          }
+        },
+        "f7": {
+          "type": "feature",
+          "settings": {
+            "icon": "wave",
+            "title": "Environmental programs",
+            "text": "<p>Tidal, diurnal and thermal cycles of temperature, flow and light.</p>"
+          }
+        },
+        "f8": {
+          "type": "feature",
+          "settings": {
+            "icon": "droplet",
+            "title": "Dissolved-oxygen control",
+            "text": "<p>Hold or ramp oxygen for hypoxia and water-quality studies.</p>"
+          }
+        },
+        "f9": {
+          "type": "feature",
+          "settings": {
+            "icon": "gauge",
+            "title": "Calibrated everything",
+            "text": "<p>Automated calibration for flow, temperature, flush volume and — with PIV — true velocity.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "f1",
+        "f2",
+        "f3",
+        "f4",
+        "f5",
+        "f6",
+        "f7",
+        "f8",
+        "f9"
+      ],
+      "settings": {
+        "surface": "navy",
+        "eyebrow": "Everything included",
+        "heading": "Built for how aquatic labs actually work",
+        "head_align": "left",
+        "columns": "3",
+        "style": "boxed"
+      }
+    },
+    "console": {
+      "type": "af-split",
+      "settings": {
+        "surface": "photo",
+        "image": "shopify://shop_images/af-control-panel.jpg",
+        "ratio": "wide",
+        "reverse": true,
+        "eyebrow": "Hardware · Aquafab Lab Controller",
+        "heading": "Professional operator consoles",
+        "body": "<p>Research systems ship with an integrated control cabinet and operator console — monitor, keyboard and physical controls including status indicators and an emergency stop.</p><ul><li>Industrial control electronics</li><li>Articulating monitor mount</li><li>Clearly labeled physical controls</li></ul>",
+        "checks": true,
+        "btn1_label": "Configure a control system",
+        "btn1_link": "/products/aquafab-lab-controller",
+        "btn1_style": "accent"
+      }
+    },
+    "faq": {
+      "type": "af-faq",
+      "settings": {
+        "surface": "mist",
+        "eyebrow": "Software FAQ",
+        "heading": "Common questions"
+      },
+      "blocks": {
+        "q1": {
+          "type": "q",
+          "settings": {
+            "question": "Is Aquafab Workbench included with my system?",
+            "answer": "<p>Yes. Aquafab Workbench is included with every Alpha system, standard respirometry system and teaching flow chamber — with every feature. There are no paid tiers, add-on modules or subscriptions.</p>"
+          }
+        },
+        "q2": {
+          "type": "q",
+          "settings": {
+            "question": "Can it control equipment from other manufacturers?",
+            "answer": "<p>Often, yes. We regularly integrate third-party pumps, chillers and sensors. Tell us the make and model and we'll confirm compatibility.</p>"
+          }
+        },
+        "q3": {
+          "type": "q",
+          "settings": {
+            "question": "How do I get the latest version?",
+            "answer": "<p>The software tells you when a new version is out. Press <strong>Update available</strong>, then <strong>Download and install</strong>: it downloads the new version, checks it, installs it and reopens. Your machines, calibrations and trials are kept. It never updates by itself, and never while a trial is running.</p>"
+          }
+        },
+        "q4": {
+          "type": "q",
+          "settings": {
+            "question": "Can I export my data?",
+            "answer": "<p>Yes, with a license — trial logs can be exported for analysis in your preferred software.</p>"
+          }
+        },
+        "q5": {
+          "type": "q",
+          "settings": {
+            "question": "Can I run several systems at the same time?",
+            "answer": "<p>Yes. One installation can run and monitor multiple systems simultaneously, and remote access lets you check on all of them from anywhere.</p>"
+          }
+        },
+        "q6": {
+          "type": "q",
+          "settings": {
+            "question": "Can I re-run a previous trial?",
+            "answer": "<p>Yes. Every trial is logged with its full settings and data, so you can review the history and run the same protocol again exactly.</p>"
+          }
+        },
+        "q7": {
+          "type": "q",
+          "settings": {
+            "question": "Do I need a license key?",
+            "answer": "<p>Yes, for anything beyond the preview. The preview lets you explore the example machine (simulated); a license unlocks adding your own machines, PIV, fish tracking, trial analysis, data export and trials on your own hardware. Each computer is activated with its own license code, once, over the internet; a computer with no internet can be activated from your licenses page instead. Licenses never expire and include lifetime updates and support. Whoever bought your lab's license manages its codes at <a href=\"/apps/licenses\">your licenses</a>. <a href=\"#license\">Lost your code? Ask here</a>.</p>"
+          }
+        },
+        "q8": {
+          "type": "q",
+          "settings": {
+            "question": "Can I use it without an Aquafab system?",
+            "answer": "<p>Yes. <a href=\"/products/aquafab-workbench-license\">Buy a lab license</a> to run it with your own pumps, sensors and chambers. Lab 20 ($1,495) covers 20 student computers and 3 teacher computers; Lab 30 ($2,295) covers 30 and 3. Your codes are ready in your account as soon as you order, and <a href=\"/products/aquafab-workbench-extra-seats\">more seats</a> can be added at any time. To see how it works first, download the preview above.</p>"
+          }
+        },
+        "q9": {
+          "type": "q",
+          "settings": {
+            "question": "How do student seats work?",
+            "answer": "<p>Teachers assign each seat to a student by name and email on <a href=\"/apps/licenses\">your licenses page</a> and send them their code. A student seat lasts a year and renews itself whenever that computer is online, so it never lapses while it is in use. A seat nobody has used for a year frees itself for the next student, and a teacher can free every student seat at the end of a term. Teacher seats never need renewing.</p>"
+          }
+        },
+        "q10": {
+          "type": "q",
+          "settings": {
+            "question": "How does remote access work?",
+            "answer": "<p>Remote access is built into the software, with no extra account or service to set up. On the machine, turn on Aquafab remote access in its Settings and press Pair a Device: it shows a one-time code. Type that code into Aquafab Workbench on your laptop (Connect to a Machine), or into the remote page on your phone. From then on you can see the machine's temperatures and trial progress from anywhere and, if you allowed it, set a temperature that switches itself off after a time you choose. Nothing is opened on your lab network, and everything is encrypted between the machine and your device, so not even Aquafab can read it. It needs the machine's computer to be licensed and online. Remote access is a convenience, not a safety system: someone must still be responsible for a machine left running.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "q1",
+        "q5",
+        "q10",
+        "q6",
+        "q2",
+        "q3",
+        "q7",
+        "q8",
+        "q9",
+        "q4"
+      ]
+    },
+    "ecosystem": {
+      "type": "af-cards",
+      "blocks": {
+        "e1": {
+          "type": "card",
+          "settings": {
+            "eyebrow": "Control",
+            "title": "Run the hardware",
+            "text": "<p>Pumps, valves, heaters, chillers, lighting and sensors — on timed or reactive schedules.</p>"
+          }
+        },
+        "e2": {
+          "type": "card",
+          "settings": {
+            "eyebrow": "Monitor",
+            "title": "Watch it live, anywhere",
+            "text": "<p>Live readings, smart alerts and remote access, so you know your trial is on track from the office or home.</p>"
+          }
+        },
+        "e3": {
+          "type": "card",
+          "settings": {
+            "eyebrow": "Analyze",
+            "title": "From data to results",
+            "text": "<p>Built-in analysis for respirometry, swim performance and PIV flow fields, with export for your own tools.</p>"
+          }
+        },
+        "e4": {
+          "type": "card",
+          "settings": {
+            "eyebrow": "No paywalls",
+            "title": "Every feature included",
+            "text": "<p>One software for every system. No feature tiers, add-on modules or subscriptions to unlock what you need.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "e1",
+        "e2",
+        "e3",
+        "e4"
+      ],
+      "settings": {
+        "surface": "light",
+        "eyebrow": "One software for everything",
+        "heading": "Control. Monitor. Analyze. No paywalls.",
+        "lead": "<p>Flow chambers, swim tunnels, respirometers, racks and displays all run on Aquafab Workbench — so everything you learn on one system carries over to the next.</p>",
+        "head_align": "split",
+        "columns": "4",
+        "card_style": "muted"
+      }
+    },
+    "screens": {
+      "type": "af-screens",
+      "settings": {
+        "surface": "slate",
+        "anchor": "screens",
+        "eyebrow": "See it working",
+        "heading": "What Aquafab Workbench looks like",
+        "lead": "<p>Screens from the software itself. Click any one to see it full size.</p>",
+        "head_align": "split",
+        "note": "Screens from Aquafab Workbench running simulated machines. The trout respirometry trials and the cylinder-wake PIV recording are modelled example data, built from published fish physiology and standard flow models and then analyzed by the software itself. They are not measurements from a lab."
+      },
+      "blocks": {
+        "s1": {
+          "type": "shot",
+          "settings": {
+            "image": "shopify://shop_images/af-ws-analysis-overlay.jpg",
+            "title": "Overlay every trial",
+            "caption": "Oxygen uptake through an overnight trial, one line per fish: the recovery after a chase, then the settle to standard metabolic rate.",
+            "feature": true
+          }
+        },
+        "s2": {
+          "type": "shot",
+          "settings": {
+            "image": "shopify://shop_images/af-ws-piv-field.jpg",
+            "title": "Flow fields by PIV",
+            "caption": "Velocity vectors behind a cylinder, with the vortex street it sheds."
+          }
+        },
+        "s3": {
+          "type": "shot",
+          "settings": {
+            "image": "shopify://shop_images/af-ws-thermal-live.jpg",
+            "title": "Live thermal control",
+            "caption": "A chamber loop heating to its target, measured against setpoint."
+          }
+        },
+        "s4": {
+          "type": "shot",
+          "settings": {
+            "image": "shopify://shop_images/af-ws-analysis-compare.jpg",
+            "title": "Compare treatments",
+            "caption": "Standard metabolic rate at 12, 18 and 24 °C: each group's mean and standard error, with every fish shown."
+          }
+        },
+        "s5": {
+          "type": "shot",
+          "settings": {
+            "image": "shopify://shop_images/af-ws-trial-cycles.jpg",
+            "title": "Every cycle kept",
+            "caption": "Each measurement's slope, fit and oxygen level, including the ones the fit threshold rejected."
+          }
+        },
+        "s6": {
+          "type": "shot",
+          "settings": {
+            "image": "shopify://shop_images/af-ws-launcher.jpg",
+            "title": "Every machine in one place",
+            "caption": "Run a machine, or analyze data with no machine attached."
+          }
+        }
+      },
+      "block_order": [
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s5",
+        "s6"
+      ]
+    },
+    "systems": {
+      "type": "af-features",
+      "blocks": {
+        "s1": {
+          "type": "feature",
+          "settings": {
+            "icon": "flow",
+            "title": "Flow chambers",
+            "text": "<p>Velocity programs over time, laminar-to-turbulent profiles and calibrated flow control.</p>",
+            "link": "/collections/fluid-flow-chambers",
+            "link_label": "Flow chambers"
+          }
+        },
+        "s2": {
+          "type": "feature",
+          "settings": {
+            "icon": "respirometry",
+            "title": "Respirometry",
+            "text": "<p>Automated measure/flush cycles, thermal ramps up to 5 °C/min and logged oxygen data.</p>",
+            "link": "/collections/respirometry-systems",
+            "link_label": "Respirometry"
+          }
+        },
+        "s3": {
+          "type": "feature",
+          "settings": {
+            "icon": "rack",
+            "title": "Life support",
+            "text": "<p>Live water-quality monitoring, scheduled maintenance and remote alerts.</p>",
+            "link": "/collections/life-support-animal-care",
+            "link_label": "Life support"
+          }
+        },
+        "s4": {
+          "type": "feature",
+          "settings": {
+            "icon": "aquarium",
+            "title": "Displays & habitats",
+            "text": "<p>Natural tide cycles, breaking-wave programs and lighting schedules for living exhibits.</p>",
+            "link": "/collections/aquarium-habitat-displays",
+            "link_label": "Displays"
+          }
+        }
+      },
+      "block_order": [
+        "s1",
+        "s2",
+        "s3",
+        "s4"
+      ],
+      "settings": {
+        "surface": "light",
+        "eyebrow": "Across every system",
+        "heading": "What it runs on each Aquafab platform",
+        "head_align": "left",
+        "columns": "4",
+        "style": "lined"
+      }
+    },
+    "piv": {
+      "type": "af-split",
+      "settings": {
+        "surface": "light",
+        "image": "shopify://shop_images/af-ws-piv-wake.jpg",
+        "screen": true,
+        "ratio": "wide",
+        "reverse": true,
+        "eyebrow": "PIV · flow calibration & flow-field analysis",
+        "heading": "Automated PIV — for calibration and for science",
+        "lead": "<p>Aquafab Workbench records and analyzes particle image velocimetry automatically. Use it to calibrate your chamber to true water velocity with high accuracy — or to map the full flow field around organisms, models and structures.</p>",
+        "body": "<ul><li>Automated PIV recording and analysis — no separate software</li><li>Setpoint-to-velocity calibration so trials are programmed in cm/s</li><li>Full flow-field analysis: velocity maps, uniformity and turbulence</li><li>Valuable for marine science and for engineering tests alike</li></ul>",
+        "checks": true,
+        "btn1_label": "Explore automated flow calibration",
+        "btn1_link": "/products/piv-flow-calibration",
+        "btn1_style": "accent"
+      }
+    },
+    "cta": {
+      "type": "af-cta",
+      "settings": {
+        "surface": "light",
+        "style": "navy",
+        "eyebrow": "Retrofit or upgrade",
+        "heading": "Put Aquafab Workbench on the equipment you already own.",
+        "text": "<p>Tell us about your tanks, flumes, pumps and sensors — we'll specify the console, I/O and calibration to bring them onto the platform.</p>",
+        "show_contact": true,
+        "btn1_label": "Configure a control system",
+        "btn1_link": "/products/aquafab-lab-controller",
+        "btn2_label": "Talk to an engineer",
+        "btn2_link": "/pages/contact",
+        "image": "shopify://shop_images/af-software-workstation.jpg"
+      }
+    },
+    "wizards": {
+      "type": "af-split",
+      "settings": {
+        "surface": "deep",
+        "anchor": "capabilities",
+        "image": "shopify://shop_images/af-ws-temperature-program.jpg",
+        "screen": true,
+        "ratio": "wide",
+        "reverse": false,
+        "eyebrow": "Guided wizards",
+        "heading": "Wizards that build the experiment with you",
+        "lead": "<p>Fully automated wizards walk you through calibration and trial design step by step, with easy-to-read graphs, figures and real previews of the curve before you press start.</p>",
+        "body": "<ul><li><strong>Calibration wizards</strong> for flow, temperature and flush volume — automated from start to finish</li><li><strong>Trial builder</strong> with live previews of velocity, temperature and oxygen curves over time</li><li><strong>Graphs and figures</strong> that show exactly what the system will do, and what it did</li><li><strong>Saved protocols</strong> you can reuse, share with your lab and run again with one click</li></ul>",
+        "checks": true
+      }
+    },
+    "resp": {
+      "type": "af-split",
+      "settings": {
+        "surface": "mist",
+        "image": "shopify://shop_images/af-alpha-resp-trout.png",
+        "ratio": "wide",
+        "reverse": true,
+        "eyebrow": "Respirometry",
+        "heading": "Automated respirometry, with thermal cycling when you need it",
+        "lead": "<p>Start with the question you are asking, not a schedule. Pick standard or routine metabolic rate, maximum metabolic rate after a chase, aerobic scope, Pcrit, EPOC or a temperature program, and Aquafab Workbench fills in the schedule from the published method behind it. Then it runs the trial end to end: sealed measurement periods, automatic flushing with fresh oxygenated water, and optional temperature ramps and cycles, for hours or days without anyone at the bench.</p>",
+        "body": "<ul><li><strong>Presets from the literature</strong>: SMR, RMR, MMR, aerobic scope, Pcrit, Ucrit, cost of transport and EPOC. Every field stays editable</li><li><strong>Intermittent-flow or closed</strong> respirometry, chosen up front with what each means</li><li><strong>Smart stopping</strong>: end a measurement on time, once the fit is good enough, or before oxygen falls too low</li><li>Thermal ramps and cycles synchronized with each measurement period</li><li>Hypoxia and dissolved-oxygen control</li></ul>",
+        "checks": true
+      }
+    },
+    "swim": {
+      "type": "af-split",
+      "settings": {
+        "surface": "blueprint",
+        "image": "shopify://shop_images/af-swim-trout-closeup.png",
+        "ratio": "wide",
+        "reverse": false,
+        "eyebrow": "Fish swimming studies",
+        "heading": "Swim performance, Ucrit and full fatigue studies",
+        "lead": "<p>Program the current and let the software run the protocol: step-velocity tests, critical swimming speed (Ucrit), endurance and full fatigue trials, with speeds, times and respirometry recorded together.</p>",
+        "body": "<ul><li>Critical swimming speed (Ucrit) step protocols</li><li>Fatigue and endurance trials with automatic velocity ramps</li><li><strong>Ramped, not stepped</strong>: speed changes and flushes are eased in rather than stepped, to avoid startling the fish</li><li>Oxygen uptake against water speed, with cost of transport and optimal swimming speed (Uopt)</li><li>Behavioral studies in precisely controlled flow</li></ul>",
+        "checks": true,
+        "btn1_label": "Respirometry systems",
+        "btn1_link": "/collections/respirometry-systems",
+        "btn1_style": "accent"
+      }
+    },
+    "license": {
+      "type": "af-form",
+      "settings": {
+        "surface": "light",
+        "anchor": "license",
+        "kind": "license",
+        "eyebrow": "License code",
+        "heading": "Lost your license code?",
+        "lead": "<p>Licenses bought on this site are managed at <a href=\"/apps/licenses\">your licenses</a>: sign in with the account that bought it to see every code. A license also comes with every Aquafab system. If you can't find yours, tell us which system you have and your lab's name, and we'll sort it out.</p><ul><li>One code per computer, activated once over the internet</li><li>Never expires, with lifetime updates and support</li><li>It never stops a running trial</li><li>No Aquafab system? <a href=\"/products/aquafab-workbench-license\">Buy a lab license</a></li></ul>",
+        "show_contact": false,
+        "email": "sales@aquafabindustries.com"
+      }
+    },
+    "analysis": {
+      "type": "af-features",
+      "settings": {
+        "surface": "mist",
+        "anchor": "analysis",
+        "eyebrow": "Analysis",
+        "heading": "Finish the analysis without leaving the software",
+        "lead": "<p>Compare treatments, pick out the cycles that count and see the shape behind every number, all from the trials you already ran. Nothing has to go through a spreadsheet first.</p>",
+        "head_align": "split",
+        "columns": "3",
+        "style": "boxed"
+      },
+      "blocks": {
+        "a1": {
+          "type": "feature",
+          "settings": {
+            "icon": "chart",
+            "title": "Compare on 17 measures",
+            "text": "<p>Group trials by treatment and compare them on SMR, MMR, absolute and factorial scope, whole-animal rates, variability, oxygen conditions, fit quality and more.</p>"
+          }
+        },
+        "a2": {
+          "type": "feature",
+          "settings": {
+            "icon": "layers",
+            "title": "Overlay the traces",
+            "text": "<p>One line per trial on the same axes, so two groups with the same average but different behavior look different. Traces are never averaged together.</p>"
+          }
+        },
+        "a3": {
+          "type": "feature",
+          "settings": {
+            "icon": "search",
+            "title": "Analyze part of a trial",
+            "text": "<p>Leave out the cycles while the animal settled, or keep only well-fitted ones. Every figure recalculates live, and the selection is saved as a rule that can be written straight into your methods. The original data is never changed.</p>"
+          }
+        },
+        "a4": {
+          "type": "feature",
+          "settings": {
+            "icon": "flask",
+            "title": "Q10 and mass scaling",
+            "text": "<p>Metrics that need a set of trials: Q10 across temperatures, allometric scaling across body masses, and the oxygen threshold.</p>"
+          }
+        },
+        "a5": {
+          "type": "feature",
+          "settings": {
+            "icon": "doc",
+            "title": "The method on every number",
+            "text": "<p>Every SMR says how it was estimated (low quantile or MLND), and that method goes into the export with it, so the right method ends up in your paper.</p>"
+          }
+        },
+        "a6": {
+          "type": "feature",
+          "settings": {
+            "icon": "globe",
+            "title": "Analyze from anywhere",
+            "text": "<p>On any licensed computer the full analysis runs with no system attached, so you can work on trials away from the lab.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "a1",
+        "a2",
+        "a3",
+        "a4",
+        "a5",
+        "a6"
+      ]
+    },
+    "get": {
+      "type": "af-cards",
+      "settings": {
+        "surface": "mist",
+        "anchor": "downloads",
+        "eyebrow": "Preview download",
+        "heading": "Try Aquafab Workbench",
+        "lead": "<p>Download the preview to explore the example machine (simulated): calibrate it and run simulated trials with live charts. No account is needed to download it. A license unlocks adding your own machines, PIV, fish tracking, trial analysis, data export and trials on your own hardware. Every Aquafab system comes with one, or buy a lab license to use the software with your own equipment. Licenses are bought once and never expire.</p><p>Once installed, Aquafab Workbench tells you when a new version is out and installs it with one click. It never updates during a trial.</p>",
+        "head_align": "split",
+        "columns": "4",
+        "card_style": "default",
+        "btn1_label": "Buy a license",
+        "btn1_link": "/products/aquafab-workbench-license",
+        "btn1_style": "accent",
+        "btn2_label": "Manage your licenses",
+        "btn2_link": "/apps/licenses"
+      },
+      "blocks": {
+        "win": {
+          "type": "card",
+          "settings": {
+            "eyebrow": "Windows 10 and 11",
+            "title": "Windows",
+            "text": "<p>64-bit installer. No administrator rights needed.</p>",
+            "link_label": "Download",
+            "link": "https://github.com/Aquafab-Industries-LLC/Aquafab_Workbench_Releases/releases/latest/download/AquafabWorkbench-Windows.exe"
+          }
+        },
+        "mac": {
+          "type": "card",
+          "settings": {
+            "eyebrow": "M1 or later",
+            "title": "Mac (Apple silicon)",
+            "text": "<p>Disk image for Macs with Apple silicon.</p>",
+            "link_label": "Download",
+            "link": "https://github.com/Aquafab-Industries-LLC/Aquafab_Workbench_Releases/releases/latest/download/AquafabWorkbench-macOS.dmg"
+          }
+        },
+        "macintel": {
+          "type": "card",
+          "settings": {
+            "eyebrow": "Intel processor",
+            "title": "Mac (Intel)",
+            "text": "<p>Disk image for older Macs with an Intel processor.</p>",
+            "link_label": "Download",
+            "link": "https://github.com/Aquafab-Industries-LLC/Aquafab_Workbench_Releases/releases/latest/download/AquafabWorkbench-macOS-Intel.dmg"
+          }
+        },
+        "linux": {
+          "type": "card",
+          "settings": {
+            "eyebrow": "x86-64",
+            "title": "Linux",
+            "text": "<p>A single AppImage file. Raspberry Pi control computers are set up by Aquafab.</p>",
+            "link_label": "Download",
+            "link": "https://github.com/Aquafab-Industries-LLC/Aquafab_Workbench_Releases/releases/latest/download/AquafabWorkbench-Linux.AppImage"
+          }
+        }
+      },
+      "block_order": [
+        "win",
+        "mac",
+        "macintel",
+        "linux"
+      ]
+    }
+  },
+  "order": [
+    "hero",
+    "ecosystem",
+    "screens",
+    "wizards",
+    "resp",
+    "swim",
+    "piv",
+    "analysis",
+    "features",
+    "systems",
+    "console",
+    "get",
+    "license",
+    "faq",
+    "cta"
+  ]
+}

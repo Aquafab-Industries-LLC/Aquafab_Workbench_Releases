@@ -1,0 +1,61 @@
+{%- assign s = section.settings -%}
+<footer class="af af-footer">
+  <div class="af-container">
+    <div class="af-footer__top">
+      <div class="af-footer__brand">
+        {%- if s.logo -%}
+          {{ s.logo | image_url: width: 400 | image_tag: loading: 'lazy', alt: shop.name, style: 'max-width: 190px' }}
+        {%- else -%}
+          <div class="af-footer__wordmark">Aquafab Industries</div>
+        {%- endif -%}
+        <div class="af-footer__tagline">{{ s.tagline }}</div>
+        <div class="af-footer__contact">
+          <span>{{ s.address | escape }}</span>
+          <a href="tel:{{ s.phone | remove: ' ' | remove: '(' | remove: ')' | remove: '-' }}">{{ s.phone | escape }}</a>
+          <a href="mailto:{{ s.email }}">{{ s.email | escape }}</a>
+        </div>
+        {%- if section.blocks.size > 0 -%}
+          <div class="af-footer__creds">
+            {%- for block in section.blocks -%}<span class="af-footer__cred" {{ block.shopify_attributes }}>{{ block.settings.text | escape }}</span>{%- endfor -%}
+          </div>
+        {%- endif -%}
+      </div>
+      {%- for i in (1..4) -%}
+        {%- liquid
+          assign mk = 'menu_' | append: i
+          assign m = s[mk]
+        -%}
+        {%- if m != blank -%}
+          <div>
+            <div class="af-footer__heading">{{ m.title | escape }}</div>
+            <ul class="af-footer__links">
+              {%- for link in m.links -%}<li><a href="{{ link.url }}">{{ link.title | escape }}</a></li>{%- endfor -%}
+            </ul>
+          </div>
+        {%- endif -%}
+      {%- endfor -%}
+    </div>
+    <div class="af-footer__bottom">
+      <span>&copy; {{ 'now' | date: '%Y' }} Aquafab Industries, LLC. {{ s.bottom_note | escape }}</span>
+      <div class="af-footer__legal">
+        {%- for policy in shop.policies -%}<a href="{{ policy.url }}">{{ policy.title | escape }}</a>{%- endfor -%}
+      </div>
+    </div>
+  </div>
+</footer>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Aquafab Industries, LLC",
+  "url": {{ request.origin | json }},
+  "email": {{ s.email | json }},
+  "telephone": {{ s.phone | json }},
+  "address": { "@type": "PostalAddress", "streetAddress": "2291 Morning Watch", "addressLocality": "Cincinnati", "addressRegion": "OH", "postalCode": "45244", "addressCountry": "US" },
+  "description": "Designer and fabricator of flow chambers, respirometry systems, aquatic life-support systems and custom research equipment for universities, schools, public aquariums and government laboratories."
+}
+</script>
+
+{% schema %}
+{"name":"AF · Footer","tag":"div","class":"af-section-wrapper","enabled_on":{"groups":["footer"]},"settings":[{"type":"image_picker","id":"logo","label":"Logo (light version for dark background)"},{"type":"richtext","id":"tagline","label":"Tagline","default":"<p>Precision aquatic research systems — designed, fabricated and supported in Cincinnati, Ohio. Founded by researchers. Built for researchers.</p>"},{"type":"text","id":"address","label":"Address","default":"2291 Morning Watch, Cincinnati, OH 45244"},{"type":"text","id":"phone","label":"Phone","default":"+1 (513) 781-8010"},{"type":"text","id":"email","label":"Email","default":"sales@aquafabindustries.com"},{"type":"link_list","id":"menu_1","label":"Column 1 menu"},{"type":"link_list","id":"menu_2","label":"Column 2 menu"},{"type":"link_list","id":"menu_3","label":"Column 3 menu"},{"type":"link_list","id":"menu_4","label":"Column 4 menu"},{"type":"text","id":"bottom_note","label":"Bottom note","default":"Designed and built in Cincinnati, Ohio."}],"blocks":[{"type":"cred","name":"Credential","limit":6,"settings":[{"type":"text","id":"text","label":"Text","default":"NET 30 terms"}]}],"presets":[{"name":"AF · Footer"}]}
+{% endschema %}

@@ -1,0 +1,11 @@
+<nav class="af af-anchor-nav" aria-label="On this page">
+  <div class="af-container">
+    <ul class="af-anchor-nav__list">
+      {%- for block in section.blocks -%}<li {{ block.shopify_attributes }}><a href="#{{ block.settings.anchor | handleize }}">{{ block.settings.label | escape }}</a></li>{%- endfor -%}
+    </ul>
+  </div>
+</nav>
+
+{% schema %}
+{"name":"AF · On-page navigation","tag":"div","class":"af-section-wrapper","blocks":[{"type":"link","name":"Link","settings":[{"type":"text","id":"label","label":"Label","default":"Section"},{"type":"text","id":"anchor","label":"Anchor ID (matches a section's Anchor ID)","default":"section"}]}],"presets":[{"name":"AF · On-page navigation"}]}
+{% endschema %}
