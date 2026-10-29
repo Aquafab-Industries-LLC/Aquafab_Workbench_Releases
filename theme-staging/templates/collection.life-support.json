@@ -1,0 +1,246 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "hero": {
+      "type": "af-page-hero",
+      "settings": {
+        "surface": "blueprint",
+        "show_crumbs": true,
+        "parent_label": "Systems",
+        "parent_link": "/pages/systems",
+        "eyebrow": "Life support & animal care",
+        "use_resource_image": true,
+        "btn1_label": "Request a quote",
+        "btn1_link": "/pages/request-a-quote",
+        "btn2_label": "Talk to an engineer",
+        "btn2_link": "/pages/contact"
+      }
+    },
+    "grid": {
+      "type": "af-products",
+      "settings": {
+        "surface": "light",
+        "eyebrow": "Products",
+        "heading": "Racks, holding systems and specimen holders",
+        "lead": "<p>Items marked <strong>Order online</strong> have published pricing. Items marked <strong>Configure &amp; quote</strong> are engineered to your specifications — build your configuration and we'll return an itemized quote.</p>",
+        "head_align": "split",
+        "limit": 24
+      }
+    },
+    "included": {
+      "type": "af-features",
+      "settings": {
+        "surface": "light",
+        "eyebrow": "With every system",
+        "heading": "More than equipment.",
+        "head_align": "left",
+        "columns": "4",
+        "style": "lined"
+      },
+      "blocks": {
+        "i1": {
+          "type": "feature",
+          "settings": {
+            "icon": "pencil",
+            "title": "Engineering review",
+            "text": "<p>Every configuration is checked by an engineer before we quote or build.</p>"
+          }
+        },
+        "i2": {
+          "type": "feature",
+          "settings": {
+            "icon": "check",
+            "title": "Factory-tested",
+            "text": "<p>Assembled, leak-tested and run in Cincinnati before it ships.</p>"
+          }
+        },
+        "i3": {
+          "type": "feature",
+          "settings": {
+            "icon": "book",
+            "title": "Documentation",
+            "text": "<p>Manuals, calibration records and Aquafab Workbench software.</p>"
+          }
+        },
+        "i4": {
+          "type": "feature",
+          "settings": {
+            "icon": "support",
+            "title": "Lifetime support",
+            "text": "<p>Direct access to the engineers who built your system.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "i1",
+        "i2",
+        "i3",
+        "i4"
+      ]
+    },
+    "cta": {
+      "type": "af-cta",
+      "settings": {
+        "surface": "light",
+        "style": "navy",
+        "eyebrow": "Don't see exactly what you need?",
+        "heading": "We'll build it.",
+        "text": "<p>Most of our systems start as a conversation. Describe your experiment and we'll design around it.</p>",
+        "show_contact": true,
+        "btn1_label": "Start a custom project",
+        "btn1_link": "/pages/custom-engineering",
+        "btn2_label": "Request a quote",
+        "btn2_link": "/pages/request-a-quote",
+        "image": "shopify://shop_images/af-flume-overhead.jpg"
+      }
+    },
+    "intro": {
+      "type": "af-split",
+      "settings": {
+        "surface": "light",
+        "image": "shopify://shop_images/AI_rack.png",
+        "ratio": "wide",
+        "reverse": false,
+        "eyebrow": "What is a life-support system?",
+        "heading": "Stable water, healthy animals, reliable data",
+        "lead": "<p>Life-support systems keep holding tanks clean, oxygenated and at the right temperature so animals stay healthy between experiments — and so your study animals are consistent.</p>",
+        "body": "<p>Water recirculates from the tanks through mechanical, biological and chemical filtration, then back to each tank, with sensors watching conditions around the clock.</p><ul><li>Single, double or multi-rack configurations</li><li>Integrated filtration, monitoring and automation</li><li>Zebrafish specimen cups and holders for breeding and screening</li></ul>",
+        "checks": true
+      }
+    },
+    "uses": {
+      "type": "af-features",
+      "blocks": {
+        "u1": {
+          "type": "feature",
+          "settings": {
+            "icon": "fish",
+            "title": "Model-organism colonies",
+            "text": "<p>Zebrafish and other small-fish colonies, breeding and larval rearing.</p>"
+          }
+        },
+        "u2": {
+          "type": "feature",
+          "settings": {
+            "icon": "flask",
+            "title": "Holding for experiments",
+            "text": "<p>Acclimation and holding before and after trials.</p>"
+          }
+        },
+        "u3": {
+          "type": "feature",
+          "settings": {
+            "icon": "rack",
+            "title": "Core facilities",
+            "text": "<p>Scalable racks that grow with your program.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "u1",
+        "u2",
+        "u3"
+      ],
+      "settings": {
+        "surface": "mist",
+        "eyebrow": "Applications",
+        "heading": "Where our racks and holding systems work",
+        "head_align": "left",
+        "columns": "3",
+        "style": "boxed"
+      }
+    },
+    "software": {
+      "type": "af-features",
+      "blocks": {
+        "s1": {
+          "type": "feature",
+          "settings": {
+            "icon": "chart",
+            "title": "Live monitoring",
+            "text": "<p>Continuous readings of the parameters that matter for your animals.</p>"
+          }
+        },
+        "s2": {
+          "type": "feature",
+          "settings": {
+            "icon": "bolt",
+            "title": "Remote alerts",
+            "text": "<p>Status alerts when conditions drift or a component needs service.</p>"
+          }
+        },
+        "s3": {
+          "type": "feature",
+          "settings": {
+            "icon": "calendar",
+            "title": "Scheduled maintenance",
+            "text": "<p>Automated routines that keep the system on schedule.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "s1",
+        "s2",
+        "s3"
+      ],
+      "settings": {
+        "surface": "blueprint",
+        "eyebrow": "Powered by Aquafab Workbench",
+        "heading": "A facility that watches itself.",
+        "lead": "<p>Aquafab Workbench monitors water quality and system performance, and alerts your team before small issues become animal-care problems.</p>",
+        "head_align": "split",
+        "columns": "3",
+        "style": "boxed",
+        "btn1_label": "Explore Aquafab Workbench",
+        "btn1_link": "/pages/aquafab-workbench",
+        "btn1_style": "accent"
+      }
+    },
+    "faq": {
+      "type": "af-faq",
+      "blocks": {
+        "q1": {
+          "type": "q",
+          "settings": {
+            "question": "Can racks be expanded later?",
+            "answer": "<p>Yes. Racks are modular, so you can start with one and add capacity as your program grows.</p>"
+          }
+        },
+        "q2": {
+          "type": "q",
+          "settings": {
+            "question": "Do you make zebrafish specimen holders?",
+            "answer": "<p>Yes — see the <a href=\"/products/zebrafish-specimen-cup-holder\">Zebrafish Specimen Cup Holder</a>.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "q1",
+        "q2"
+      ],
+      "settings": {
+        "surface": "mist",
+        "eyebrow": "FAQ",
+        "heading": "Life support questions"
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "intro",
+    "uses",
+    "grid",
+    "software",
+    "included",
+    "faq",
+    "cta"
+  ]
+}

@@ -1,0 +1,217 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "hero": {
+      "type": "af-page-hero",
+      "settings": {
+        "surface": "blueprint",
+        "show_crumbs": true,
+        "eyebrow": "About Aquafab",
+        "heading": "Founded by researchers. Built for researchers.",
+        "text": "<p>Aquafab Industries designs and fabricates precision equipment for aquatic research, education and public display — for the experiments that commercial catalogs can't support.</p>",
+        "image": "shopify://shop_images/Flow_Chamber_ai.png"
+      },
+      "blocks": {
+        "m1": {
+          "type": "meta",
+          "settings": {
+            "label": "Founded",
+            "value": "2025"
+          }
+        },
+        "m2": {
+          "type": "meta",
+          "settings": {
+            "label": "Headquarters",
+            "value": "Cincinnati, Ohio"
+          }
+        }
+      },
+      "block_order": [
+        "m1",
+        "m2"
+      ]
+    },
+    "story": {
+      "type": "af-split",
+      "settings": {
+        "surface": "light",
+        "image": "shopify://shop_images/af-resp-system-lab.jpg",
+        "ratio": "wide",
+        "reverse": true,
+        "eyebrow": "Our story",
+        "heading": "Born from a gap in the catalog",
+        "body": "<p>Aquafab Industries was founded in 2025 by <strong>Christopher Maring</strong> to solve a problem he saw again and again: researchers with novel ideas, and no equipment that could test them. With a background in physics and engineering, our team has deep experience building custom apparatus for biology departments and leading marine research institutions.</p><p>Today we build everything from benchtop teaching flumes to research-grade respirometry systems and public exhibits — each one designed around the science it serves.</p>",
+        "checks": true
+      }
+    },
+    "mission": {
+      "type": "af-features",
+      "settings": {
+        "surface": "blueprint",
+        "eyebrow": "Mission",
+        "heading": "Enabling research beyond the limits of off-the-shelf equipment.",
+        "lead": "<p>We provide high-quality, customizable equipment for marine research, aquaculture and education, and we transform unique research concepts into functional, deployable systems.</p>",
+        "head_align": "split",
+        "columns": "4",
+        "style": "lined"
+      },
+      "blocks": {
+        "v1": {
+          "type": "feature",
+          "settings": {
+            "icon": "microscope",
+            "title": "Purpose-built",
+            "text": "<p>Every system is designed for a specific scientific application.</p>"
+          }
+        },
+        "v2": {
+          "type": "feature",
+          "settings": {
+            "icon": "gauge",
+            "title": "Scientifically accurate",
+            "text": "<p>Engineered for calibrated, repeatable data.</p>"
+          }
+        },
+        "v3": {
+          "type": "feature",
+          "settings": {
+            "icon": "shield",
+            "title": "Built to last",
+            "text": "<p>Fabricated for durability in fresh and salt water.</p>"
+          }
+        },
+        "v4": {
+          "type": "feature",
+          "settings": {
+            "icon": "layers",
+            "title": "Adaptable",
+            "text": "<p>Designed to be upgraded as your research evolves.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "v1",
+        "v2",
+        "v3",
+        "v4"
+      ]
+    },
+    "approach": {
+      "type": "af-split",
+      "settings": {
+        "surface": "light",
+        "image": "shopify://shop_images/af-flow-chamber-lab.jpg",
+        "ratio": "wide",
+        "reverse": false,
+        "eyebrow": "How we work",
+        "heading": "Partners in discovery, not just fabricators",
+        "body": "<p>Every project begins with a clear understanding of the biological, experimental and operational requirements. We work directly with researchers, educators and technical staff so systems are:</p><ul><li>Purpose-built for their application</li><li>Designed for scientific accuracy and repeatability</li><li>Fabricated for durability and reliability</li><li>Adaptable to future research needs</li></ul>",
+        "checks": true,
+        "btn1_label": "Custom engineering",
+        "btn1_link": "/pages/custom-engineering"
+      }
+    },
+    "areas": {
+      "type": "af-features",
+      "settings": {
+        "surface": "mist",
+        "eyebrow": "What we support",
+        "heading": "A broad range of aquatic research",
+        "head_align": "left",
+        "columns": "3",
+        "style": "boxed"
+      },
+      "blocks": {
+        "a1": {
+          "type": "feature",
+          "settings": {
+            "icon": "flow",
+            "title": "Flow chambers & flumes",
+            "text": "<p>Hydrodynamics, behavior and engineering tests.</p>"
+          }
+        },
+        "a2": {
+          "type": "feature",
+          "settings": {
+            "icon": "rack",
+            "title": "Animal care & holding",
+            "text": "<p>Racks and life support for long-term studies.</p>"
+          }
+        },
+        "a3": {
+          "type": "feature",
+          "settings": {
+            "icon": "gauge",
+            "title": "Measurement & sensing",
+            "text": "<p>Respirometry, velocity and water-quality instrumentation.</p>"
+          }
+        },
+        "a4": {
+          "type": "feature",
+          "settings": {
+            "icon": "chip",
+            "title": "Autonomous instruments",
+            "text": "<p>Embedded sensors and robotics for field and lab.</p>"
+          }
+        },
+        "a5": {
+          "type": "feature",
+          "settings": {
+            "icon": "graduation",
+            "title": "Teaching laboratories",
+            "text": "<p>Classroom flumes, aquariums and lab exercises.</p>"
+          }
+        },
+        "a6": {
+          "type": "feature",
+          "settings": {
+            "icon": "aquarium",
+            "title": "Aquariums & life support",
+            "text": "<p>Exhibits and habitats for public spaces.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "a1",
+        "a2",
+        "a3",
+        "a4",
+        "a5",
+        "a6"
+      ]
+    },
+    "cta": {
+      "type": "af-cta",
+      "settings": {
+        "surface": "light",
+        "style": "navy",
+        "eyebrow": "Work with us",
+        "heading": "Let's build what your research requires.",
+        "text": "<p>Whether you're an educator creating hands-on learning, a researcher developing a novel experiment, or a facility planning new aquatic infrastructure — we're here to help.</p>",
+        "show_contact": true,
+        "btn1_label": "Contact us",
+        "btn1_link": "/pages/contact",
+        "btn2_label": "Explore systems",
+        "btn2_link": "/pages/systems",
+        "image": "shopify://shop_images/af-flume-overhead.jpg"
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "story",
+    "mission",
+    "approach",
+    "areas",
+    "cta"
+  ]
+}

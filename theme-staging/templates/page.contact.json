@@ -1,0 +1,114 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "hero": {
+      "type": "af-page-hero",
+      "settings": {
+        "surface": "blueprint",
+        "show_crumbs": true,
+        "eyebrow": "Contact",
+        "heading": "Talk to an engineer",
+        "text": "<p>Questions about a system, a quote, an order or a project idea? You'll reach the people who design and build our equipment — we reply within one business day.</p>"
+      },
+      "blocks": {
+        "m1": {
+          "type": "meta",
+          "settings": {
+            "label": "Phone",
+            "value": "+1 (513) 781-8010"
+          }
+        },
+        "m2": {
+          "type": "meta",
+          "settings": {
+            "label": "Email",
+            "value": "sales@aquafabindustries.com"
+          }
+        },
+        "m3": {
+          "type": "meta",
+          "settings": {
+            "label": "Hours",
+            "value": "Mon–Fri, 9 am–5 pm ET"
+          }
+        }
+      },
+      "block_order": [
+        "m1",
+        "m2",
+        "m3"
+      ]
+    },
+    "routes": {
+      "type": "af-cards",
+      "settings": {
+        "surface": "light",
+        "padding": "tight",
+        "columns": "3",
+        "card_style": "muted"
+      },
+      "blocks": {
+        "c1": {
+          "type": "card",
+          "settings": {
+            "eyebrow": "Pricing",
+            "title": "Request a quote",
+            "text": "<p>Get an itemized quote for a standard, configured or custom system.</p>",
+            "link_label": "Request a quote",
+            "link": "/pages/request-a-quote"
+          }
+        },
+        "c2": {
+          "type": "card",
+          "settings": {
+            "eyebrow": "Owners",
+            "title": "Technical support",
+            "text": "<p>Help with setup, software, calibration, parts or warranty.</p>",
+            "link_label": "Get support",
+            "link": "/pages/support"
+          }
+        },
+        "c3": {
+          "type": "card",
+          "settings": {
+            "eyebrow": "Purchasing",
+            "title": "Vendor & PO questions",
+            "text": "<p>Vendor registration, payment terms and purchasing documents.</p>",
+            "link_label": "Buying from Aquafab",
+            "link": "/pages/procurement"
+          }
+        }
+      },
+      "block_order": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    },
+    "form": {
+      "type": "af-form",
+      "settings": {
+        "surface": "mist",
+        "kind": "general",
+        "eyebrow": "Send a message",
+        "heading": "How can we help?",
+        "lead": "<p>Tell us a little about your organization and what you're working on, and we'll route your message to the right engineer.</p>",
+        "show_contact": true,
+        "anchor": "message"
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "routes",
+    "form"
+  ]
+}

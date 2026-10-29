@@ -1,0 +1,238 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "hero": {
+      "type": "af-page-hero",
+      "settings": {
+        "surface": "blueprint",
+        "show_crumbs": true,
+        "parent_label": "Systems",
+        "parent_link": "/pages/systems",
+        "eyebrow": "Accessories & components",
+        "use_resource_image": true,
+        "btn1_label": "Request a quote",
+        "btn1_link": "/pages/request-a-quote",
+        "btn2_label": "Talk to an engineer",
+        "btn2_link": "/pages/contact"
+      }
+    },
+    "intro": {
+      "type": "af-split",
+      "settings": {
+        "surface": "light",
+        "image": "shopify://shop_images/af-cup-holders.jpg",
+        "ratio": "wide",
+        "reverse": false,
+        "eyebrow": "Upgrades & lab hardware",
+        "heading": "Extend what your system can do",
+        "lead": "<p>Precision add-ons, lab hardware and services for Aquafab systems — and, in many cases, for equipment you already own.</p>",
+        "body": "<ul><li>Zebrafish specimen cups and holders</li><li>Thermal control, velocity measurement and sensor suites</li><li>Research lighting and powder-coated stands</li><li>Installation, commissioning and training</li></ul>",
+        "checks": true
+      }
+    },
+    "uses": {
+      "type": "af-features",
+      "blocks": {
+        "u1": {
+          "type": "feature",
+          "settings": {
+            "icon": "fish",
+            "title": "Specimen handling",
+            "text": "<p>Clear, stackable specimen cups and trays for zebrafish work.</p>"
+          }
+        },
+        "u2": {
+          "type": "feature",
+          "settings": {
+            "icon": "thermometer",
+            "title": "Temperature control",
+            "text": "<p>Add stable set-points or rapid thermal cycling.</p>"
+          }
+        },
+        "u3": {
+          "type": "feature",
+          "settings": {
+            "icon": "gauge",
+            "title": "Flow & water quality",
+            "text": "<p>Velocity measurement kits and multi-parameter sensor suites.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "u1",
+        "u2",
+        "u3"
+      ],
+      "settings": {
+        "surface": "mist",
+        "eyebrow": "Applications",
+        "heading": "Common upgrades",
+        "head_align": "left",
+        "columns": "3",
+        "style": "boxed"
+      }
+    },
+    "grid": {
+      "type": "af-products",
+      "settings": {
+        "surface": "light",
+        "eyebrow": "Products",
+        "heading": "Accessories, components and services",
+        "lead": "<p>Items marked <strong>Order online</strong> have published pricing. Items marked <strong>Configure &amp; quote</strong> are engineered to your specifications — build your configuration and we'll return an itemized quote.</p>",
+        "head_align": "split",
+        "limit": 24
+      }
+    },
+    "software": {
+      "type": "af-features",
+      "blocks": {
+        "s1": {
+          "type": "feature",
+          "settings": {
+            "icon": "chip",
+            "title": "Integrated",
+            "text": "<p>Accessories are configured into Aquafab Workbench at the factory or on-site.</p>"
+          }
+        },
+        "s2": {
+          "type": "feature",
+          "settings": {
+            "icon": "chart",
+            "title": "Logged",
+            "text": "<p>New sensor channels are recorded alongside your trial data.</p>"
+          }
+        },
+        "s3": {
+          "type": "feature",
+          "settings": {
+            "icon": "wrench",
+            "title": "Retrofit-friendly",
+            "text": "<p>Many upgrades fit existing tanks and flumes, including other brands.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "s1",
+        "s2",
+        "s3"
+      ],
+      "settings": {
+        "surface": "blueprint",
+        "eyebrow": "Powered by Aquafab Workbench",
+        "heading": "Plug in, and it's part of the platform.",
+        "lead": "<p>Sensors and thermal packages connect to Aquafab Workbench, so new readings appear in your logs and alerts automatically.</p>",
+        "head_align": "split",
+        "columns": "3",
+        "style": "boxed",
+        "btn1_label": "Explore Aquafab Workbench",
+        "btn1_link": "/pages/aquafab-workbench",
+        "btn1_style": "accent"
+      }
+    },
+    "included": {
+      "type": "af-features",
+      "settings": {
+        "surface": "light",
+        "eyebrow": "With every system",
+        "heading": "More than equipment.",
+        "head_align": "left",
+        "columns": "4",
+        "style": "lined"
+      },
+      "blocks": {
+        "i1": {
+          "type": "feature",
+          "settings": {
+            "icon": "pencil",
+            "title": "Engineering review",
+            "text": "<p>Every configuration is checked by an engineer before we quote or build.</p>"
+          }
+        },
+        "i2": {
+          "type": "feature",
+          "settings": {
+            "icon": "check",
+            "title": "Factory-tested",
+            "text": "<p>Assembled, leak-tested and run in Cincinnati before it ships.</p>"
+          }
+        },
+        "i3": {
+          "type": "feature",
+          "settings": {
+            "icon": "book",
+            "title": "Documentation",
+            "text": "<p>Manuals, calibration records and Aquafab Workbench software.</p>"
+          }
+        },
+        "i4": {
+          "type": "feature",
+          "settings": {
+            "icon": "support",
+            "title": "Lifetime support",
+            "text": "<p>Direct access to the engineers who built your system.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "i1",
+        "i2",
+        "i3",
+        "i4"
+      ]
+    },
+    "faq": {
+      "type": "af-faq",
+      "blocks": {
+        "q1": {
+          "type": "q",
+          "settings": {
+            "question": "Will accessories fit equipment from other manufacturers?",
+            "answer": "<p>Often, yes. Tell us the make and model and we'll confirm compatibility.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "q1"
+      ],
+      "settings": {
+        "surface": "mist",
+        "eyebrow": "FAQ",
+        "heading": "Accessory questions"
+      }
+    },
+    "cta": {
+      "type": "af-cta",
+      "settings": {
+        "surface": "light",
+        "style": "navy",
+        "eyebrow": "Don't see exactly what you need?",
+        "heading": "We'll build it.",
+        "text": "<p>Most of our systems start as a conversation. Describe your experiment and we'll design around it.</p>",
+        "show_contact": true,
+        "btn1_label": "Start a custom project",
+        "btn1_link": "/pages/custom-engineering",
+        "btn2_label": "Request a quote",
+        "btn2_link": "/pages/request-a-quote",
+        "image": "shopify://shop_images/af-flume-overhead.jpg"
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "intro",
+    "uses",
+    "grid",
+    "software",
+    "included",
+    "faq",
+    "cta"
+  ]
+}

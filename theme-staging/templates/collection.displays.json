@@ -1,0 +1,351 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "hero": {
+      "type": "af-page-hero",
+      "settings": {
+        "surface": "blueprint",
+        "show_crumbs": true,
+        "parent_label": "Systems",
+        "parent_link": "/pages/systems",
+        "eyebrow": "Aquarium & habitat displays",
+        "use_resource_image": true,
+        "btn1_label": "Plan an exhibit",
+        "btn1_link": "/pages/contact#message",
+        "btn1_style": "accent",
+        "btn2_label": "Request a quote",
+        "btn2_link": "/pages/request-a-quote"
+      }
+    },
+    "intro": {
+      "type": "af-split",
+      "settings": {
+        "surface": "light",
+        "image": "shopify://shop_images/af-reef-display.jpg",
+        "ratio": "wide",
+        "reverse": false,
+        "eyebrow": "Biome-specific habitats",
+        "heading": "Living environments that behave like the real thing",
+        "lead": "<p>We specialize in biome-specific tanks that simulate real environments — not just how a habitat looks, but how it moves, cycles and changes through the day.</p>",
+        "body": "<ul><li><strong>Tide pools</strong> that follow natural tide cycles, raising and lowering the water level throughout the day</li><li><strong>Shallow reefs</strong> with real waves building and breaking over the reef</li><li><strong>River streams</strong> with true unidirectional current over riffles and pools</li><li><strong>Biotope displays</strong> matched to a specific region, habitat and species list</li></ul>",
+        "checks": true
+      }
+    },
+    "biomes": {
+      "type": "af-cards",
+      "settings": {
+        "surface": "mist",
+        "eyebrow": "Environments we build",
+        "heading": "Choose a biome — we engineer the physics behind it",
+        "head_align": "split",
+        "lead": "<p>Every habitat is custom. These are the environments we're known for simulating.</p>",
+        "columns": "4",
+        "card_style": "default",
+        "ratio": "4 / 3"
+      },
+      "blocks": {
+        "b1": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/IMG_7521_2.jpg",
+            "eyebrow": "Intertidal",
+            "title": "Tide Pool Simulator",
+            "text": "<p>Real rising and falling tides on natural or programmed tide tables, exposing and re-flooding organisms through the day.</p>",
+            "link_label": "View tide pools",
+            "link": "/products/tide-pool-simulator"
+          }
+        },
+        "b2": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/IMG_9625.jpg",
+            "eyebrow": "Surge zone",
+            "title": "Shallow Reef Wave Tank",
+            "text": "<p>Programmable waves that build and break over the reef, with full-spectrum reef lighting and marine life support.</p>",
+            "link_label": "View reef wave tanks",
+            "link": "/products/shallow-reef-wave-tank"
+          }
+        },
+        "b3": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/IMG_5083.jpg",
+            "eyebrow": "Freshwater",
+            "title": "River Stream Tank",
+            "text": "<p>A living stream with controllable current, riffles, pools and temperature control for native fish and invertebrates.</p>",
+            "link_label": "View stream tanks",
+            "link": "/products/river-stream-tank"
+          }
+        },
+        "b4": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/IMG_0852.jpg",
+            "eyebrow": "Showcase",
+            "title": "Public Display Aquarium",
+            "text": "<p>Reef, planted and biotope aquariums for lobbies, classrooms and public galleries — turnkey from design to install.</p>",
+            "link_label": "View display aquariums",
+            "link": "/products/public-display-aquarium"
+          }
+        }
+      },
+      "block_order": [
+        "b1",
+        "b2",
+        "b3",
+        "b4"
+      ]
+    },
+    "public": {
+      "type": "af-split",
+      "settings": {
+        "surface": "light",
+        "image": "shopify://shop_images/IMG_4142.jpg",
+        "ratio": "wide",
+        "reverse": true,
+        "eyebrow": "Public aquariums & museums",
+        "heading": "We take on public aquarium exhibits — every part of the build",
+        "lead": "<p>Public aquariums, science centers and museums work with one accountable team. We handle every aspect of the exhibit and install and set up everything on site.</p>",
+        "body": "<ul><li>Exhibit concept, biome design and species planning</li><li>Custom acrylic tanks, rockwork layouts, stands and cabinetry</li><li>Life support, filtration, temperature control and monitoring</li><li>Tide, wave, flow and lighting automation in Aquafab Workbench</li><li>Contractor coordination, delivery, installation and commissioning</li><li>Staff training and ongoing maintenance</li></ul>",
+        "checks": true,
+        "btn1_label": "Plan an exhibit",
+        "btn1_link": "/pages/contact#message",
+        "btn1_style": "accent"
+      }
+    },
+    "process": {
+      "type": "af-steps",
+      "settings": {
+        "surface": "mist",
+        "eyebrow": "How an exhibit comes together",
+        "heading": "From concept to opening day",
+        "head_align": "left"
+      },
+      "blocks": {
+        "p1": {
+          "type": "step",
+          "settings": {
+            "title": "Concept & biome",
+            "text": "<p>We define the environment, species, viewing experience and space with your team.</p>"
+          }
+        },
+        "p2": {
+          "type": "step",
+          "settings": {
+            "title": "Engineer & build",
+            "text": "<p>Tanks, life support, controls and cabinetry are designed and built in-house, then tested before delivery.</p>"
+          }
+        },
+        "p3": {
+          "type": "step",
+          "settings": {
+            "title": "Install & commission",
+            "text": "<p>Our team installs, fills, cycles and tunes the tides, waves and lighting on site.</p>"
+          }
+        },
+        "p4": {
+          "type": "step",
+          "settings": {
+            "title": "Train & support",
+            "text": "<p>Hands-on training for your staff, plus maintenance and support for the life of the exhibit.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "p1",
+        "p2",
+        "p3",
+        "p4"
+      ]
+    },
+    "uses": {
+      "type": "af-features",
+      "settings": {
+        "surface": "light",
+        "eyebrow": "Who our displays are for",
+        "heading": "Exhibits for every kind of space",
+        "head_align": "left",
+        "columns": "4",
+        "style": "boxed"
+      },
+      "blocks": {
+        "u1": {
+          "type": "feature",
+          "settings": {
+            "icon": "aquarium",
+            "title": "Public aquariums & museums",
+            "text": "<p>Turnkey gallery exhibits with dependable, serviceable life support.</p>"
+          }
+        },
+        "u2": {
+          "type": "feature",
+          "settings": {
+            "icon": "university",
+            "title": "Universities & departments",
+            "text": "<p>Living collections for lobbies, teaching spaces and research outreach.</p>"
+          }
+        },
+        "u3": {
+          "type": "feature",
+          "settings": {
+            "icon": "graduation",
+            "title": "Schools",
+            "text": "<p>Durable, low-maintenance classroom and hallway habitats.</p>"
+          }
+        },
+        "u4": {
+          "type": "feature",
+          "settings": {
+            "icon": "building",
+            "title": "Offices & public spaces",
+            "text": "<p>Showcase aquariums built and maintained for professional settings.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "u1",
+        "u2",
+        "u3",
+        "u4"
+      ]
+    },
+    "software": {
+      "type": "af-features",
+      "settings": {
+        "surface": "blueprint",
+        "eyebrow": "Powered by Aquafab Workbench",
+        "heading": "Nature on a schedule.",
+        "lead": "<p>Aquafab Workbench drives the tides, waves and light that make a habitat feel alive — and keeps an eye on water quality while it does.</p>",
+        "head_align": "split",
+        "columns": "3",
+        "style": "boxed",
+        "btn1_label": "Explore Aquafab Workbench",
+        "btn1_link": "/pages/aquafab-workbench",
+        "btn1_style": "accent"
+      },
+      "blocks": {
+        "s1": {
+          "type": "feature",
+          "settings": {
+            "icon": "wave",
+            "title": "Tides & waves",
+            "text": "<p>Natural tide cycles that raise and lower the water through the day, and wave programs from gentle surge to breaking sets.</p>"
+          }
+        },
+        "s2": {
+          "type": "feature",
+          "settings": {
+            "icon": "sun",
+            "title": "Lighting cycles",
+            "text": "<p>Sunrise, sunset, moonlight and seasonal programs.</p>"
+          }
+        },
+        "s3": {
+          "type": "feature",
+          "settings": {
+            "icon": "bolt",
+            "title": "Monitoring & alerts",
+            "text": "<p>Remote status and alerts so staff know the exhibit is healthy.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "s1",
+        "s2",
+        "s3"
+      ]
+    },
+    "grid": {
+      "type": "af-products",
+      "settings": {
+        "surface": "light",
+        "eyebrow": "Products",
+        "heading": "Display and habitat systems",
+        "lead": "<p>Every display is engineered to your space and species. Configure a starting point and we'll return an itemized quote.</p>",
+        "head_align": "split",
+        "limit": 24
+      }
+    },
+    "faq": {
+      "type": "af-faq",
+      "settings": {
+        "surface": "mist",
+        "eyebrow": "FAQ",
+        "heading": "Display questions"
+      },
+      "blocks": {
+        "q1": {
+          "type": "q",
+          "settings": {
+            "question": "Do you install?",
+            "answer": "<p>Yes. We act as your turnkey contractor — building, delivering, installing and commissioning the exhibit, and training your staff.</p>"
+          }
+        },
+        "q2": {
+          "type": "q",
+          "settings": {
+            "question": "Can you simulate a specific habitat?",
+            "answer": "<p>That's our specialty. Tell us the region, species and conditions you want to show — tides, waves, current, temperature or light — and we'll engineer the system to reproduce them.</p>"
+          }
+        },
+        "q3": {
+          "type": "q",
+          "settings": {
+            "question": "Do you work with public aquariums and museums?",
+            "answer": "<p>Yes. We handle every aspect of the build — design, fabrication, life support, controls, contractor coordination and installation — so your team has one partner from concept to opening day.</p>"
+          }
+        },
+        "q4": {
+          "type": "q",
+          "settings": {
+            "question": "Can you maintain the exhibit after opening?",
+            "answer": "<p>Yes. We offer scheduled maintenance visits and remote monitoring through Aquafab Workbench, plus lifetime technical support.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "q1",
+        "q2",
+        "q3",
+        "q4"
+      ]
+    },
+    "cta": {
+      "type": "af-cta",
+      "settings": {
+        "surface": "light",
+        "style": "navy",
+        "eyebrow": "Planning an exhibit?",
+        "heading": "Tell us about the environment you want to bring indoors.",
+        "text": "<p>Share your space, species and vision — we'll design the habitat, build it and install it.</p>",
+        "show_contact": true,
+        "btn1_label": "Plan an exhibit",
+        "btn1_link": "/pages/contact#message",
+        "btn1_style": "accent",
+        "btn2_label": "Request a quote",
+        "btn2_link": "/pages/request-a-quote",
+        "image": "shopify://shop_images/af-planted-display.jpg"
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "intro",
+    "biomes",
+    "public",
+    "process",
+    "uses",
+    "software",
+    "grid",
+    "faq",
+    "cta"
+  ]
+}

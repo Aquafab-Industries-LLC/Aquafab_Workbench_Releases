@@ -1,0 +1,350 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "hero": {
+      "type": "af-page-hero",
+      "settings": {
+        "surface": "blueprint",
+        "show_crumbs": true,
+        "parent_label": "Systems",
+        "parent_link": "/pages/systems",
+        "eyebrow": "Fluid flow chambers",
+        "use_resource_image": true,
+        "btn1_label": "Request a quote",
+        "btn1_link": "/pages/request-a-quote",
+        "btn2_label": "Talk to an engineer",
+        "btn2_link": "/pages/contact"
+      }
+    },
+    "grid": {
+      "type": "af-products",
+      "settings": {
+        "surface": "light",
+        "eyebrow": "Products",
+        "heading": "Standard and configurable flow chambers",
+        "lead": "<p>Items marked <strong>Order online</strong> have published pricing. Items marked <strong>Configure &amp; quote</strong> are engineered to your specifications — build your configuration and we'll return an itemized quote.</p>",
+        "head_align": "split",
+        "limit": 24
+      }
+    },
+    "included": {
+      "type": "af-features",
+      "settings": {
+        "surface": "light",
+        "eyebrow": "With every system",
+        "heading": "More than equipment.",
+        "head_align": "left",
+        "columns": "4",
+        "style": "lined"
+      },
+      "blocks": {
+        "i1": {
+          "type": "feature",
+          "settings": {
+            "icon": "pencil",
+            "title": "Engineering review",
+            "text": "<p>Every configuration is checked by an engineer before we quote or build.</p>"
+          }
+        },
+        "i2": {
+          "type": "feature",
+          "settings": {
+            "icon": "check",
+            "title": "Factory-tested",
+            "text": "<p>Assembled, leak-tested and run in Cincinnati before it ships.</p>"
+          }
+        },
+        "i3": {
+          "type": "feature",
+          "settings": {
+            "icon": "book",
+            "title": "Documentation",
+            "text": "<p>Manuals, calibration records and Aquafab Workbench software.</p>"
+          }
+        },
+        "i4": {
+          "type": "feature",
+          "settings": {
+            "icon": "support",
+            "title": "Lifetime support",
+            "text": "<p>Direct access to the engineers who built your system.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "i1",
+        "i2",
+        "i3",
+        "i4"
+      ]
+    },
+    "cta": {
+      "type": "af-cta",
+      "settings": {
+        "surface": "light",
+        "style": "navy",
+        "eyebrow": "Don't see exactly what you need?",
+        "heading": "We'll build it.",
+        "text": "<p>Most of our systems start as a conversation. Describe your experiment and we'll design around it.</p>",
+        "show_contact": true,
+        "btn1_label": "Start a custom project",
+        "btn1_link": "/pages/custom-engineering",
+        "btn2_label": "Request a quote",
+        "btn2_link": "/pages/request-a-quote",
+        "image": "shopify://shop_images/af-flume-overhead.jpg"
+      }
+    },
+    "intro": {
+      "type": "af-split",
+      "settings": {
+        "surface": "light",
+        "image": "shopify://shop_images/af-flume-adv.png",
+        "ratio": "wide",
+        "reverse": false,
+        "eyebrow": "What is a flow chamber?",
+        "heading": "A controlled river on your lab bench",
+        "lead": "<p>A flow chamber (or flume) recirculates water through a clear test section at a precise, repeatable velocity, so you can study how organisms, structures and sediments respond to flow.</p>",
+        "body": "<p>Pumps drive water through a flow straightener that removes swirl and turbulence, delivering uniform flow through the viewing section before it returns to the reservoir.</p><ul><li>Laminar or turbulent flow, set and logged by software</li><li>High-clarity acrylic test sections for observation and imaging</li><li>Temperature, water quality and lighting control as options</li></ul>",
+        "checks": true
+      }
+    },
+    "uses": {
+      "type": "af-features",
+      "blocks": {
+        "u1": {
+          "type": "feature",
+          "settings": {
+            "icon": "fish",
+            "title": "Behavior & swimming performance",
+            "text": "<p>Rheotaxis, station-holding and swimming performance under controlled currents.</p>"
+          }
+        },
+        "u2": {
+          "type": "feature",
+          "settings": {
+            "icon": "wave",
+            "title": "Biomechanics & drag",
+            "text": "<p>Forces, feeding and attachment of organisms and models in moving water.</p>"
+          }
+        },
+        "u3": {
+          "type": "feature",
+          "settings": {
+            "icon": "layers",
+            "title": "Benthic & larval ecology",
+            "text": "<p>Mussel and oyster beds, larval settlement and dispersal, boundary layers.</p>"
+          }
+        },
+        "u4": {
+          "type": "feature",
+          "settings": {
+            "icon": "droplet",
+            "title": "Sediment transport",
+            "text": "<p>Erosion, deposition and bedform studies with repeatable flow.</p>"
+          }
+        },
+        "u5": {
+          "type": "feature",
+          "settings": {
+            "icon": "chip",
+            "title": "Sensor & device testing",
+            "text": "<p>Calibrate and validate probes, tags and robotic devices in known flow.</p>"
+          }
+        },
+        "u6": {
+          "type": "feature",
+          "settings": {
+            "icon": "graduation",
+            "title": "Teaching labs",
+            "text": "<p>Visualize laminar vs. turbulent flow and boundary layers in class.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "u1",
+        "u2",
+        "u3",
+        "u4",
+        "u5",
+        "u6"
+      ],
+      "settings": {
+        "surface": "mist",
+        "eyebrow": "Applications",
+        "heading": "What researchers use flow chambers for",
+        "head_align": "left",
+        "columns": "3",
+        "style": "boxed"
+      }
+    },
+    "custom": {
+      "type": "af-cta",
+      "settings": {
+        "surface": "light",
+        "style": "ice",
+        "padding": "flush-top",
+        "show_contact": false,
+        "eyebrow": "No set size? No problem.",
+        "heading": "Enter the dimensions you need and we'll quote it.",
+        "text": "<p>The Alpha Flow Chamber is built to order from 1 ft to 50+ ft long with cross-sections up to 8 × 8 ft. Type in your test-section length, width and depth in the builder — an engineer sizes the pumps and returns an itemized quote.</p>",
+        "btn1_label": "Design my chamber",
+        "btn1_link": "/products/alpha-flow-chamber#configure",
+        "btn2_label": "Teaching chambers (3 standard sizes)",
+        "btn2_link": "/products/teaching-flow-chamber"
+      }
+    },
+    "choose": {
+      "type": "af-features",
+      "blocks": {
+        "c1": {
+          "type": "feature",
+          "settings": {
+            "icon": "ruler",
+            "title": "How big is your subject?",
+            "text": "<p>Test-section size should give organisms or models room without wall effects — usually several body lengths.</p>"
+          }
+        },
+        "c2": {
+          "type": "feature",
+          "settings": {
+            "icon": "gauge",
+            "title": "How fast does water need to move?",
+            "text": "<p>Maximum velocity sets pump sizing. Low-speed control is retained on every configuration.</p>"
+          }
+        },
+        "c3": {
+          "type": "feature",
+          "settings": {
+            "icon": "thermometer",
+            "title": "Do you need temperature control?",
+            "text": "<p>Ambient, a stable set-point, or rapid thermal cycling at up to 5 °C/min.</p>"
+          }
+        },
+        "c4": {
+          "type": "feature",
+          "settings": {
+            "icon": "flow",
+            "title": "How will you verify flow?",
+            "text": "<p>Calibrated pump control, flow sensors, ADV probes or PIV flow calibration.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "c1",
+        "c2",
+        "c3",
+        "c4"
+      ],
+      "settings": {
+        "surface": "mist",
+        "eyebrow": "How to choose",
+        "heading": "Four questions that size your chamber",
+        "head_align": "left",
+        "columns": "4",
+        "style": "numbered"
+      }
+    },
+    "software": {
+      "type": "af-features",
+      "blocks": {
+        "s1": {
+          "type": "feature",
+          "settings": {
+            "icon": "calendar",
+            "title": "Velocity programs",
+            "text": "<p>Step, ramp or cycle flow over time — including tidal patterns — and run them the same way every trial.</p>"
+          }
+        },
+        "s2": {
+          "type": "feature",
+          "settings": {
+            "icon": "gauge",
+            "title": "Calibrated flow",
+            "text": "<p>Guided PID calibration, plus optional PIV flow calibration so you program in cm/s, not pump percentage.</p>"
+          }
+        },
+        "s3": {
+          "type": "feature",
+          "settings": {
+            "icon": "chart",
+            "title": "Logged & monitored",
+            "text": "<p>Time-stamped set-points and sensor data, with alerts when something needs attention.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "s1",
+        "s2",
+        "s3"
+      ],
+      "settings": {
+        "surface": "blueprint",
+        "eyebrow": "Powered by Aquafab Workbench",
+        "heading": "Program the current. Record every run.",
+        "lead": "<p>Every Aquafab flow chamber runs on Aquafab Workbench, so velocity programs, calibration and data logging work the same on a teaching flume as on a 50-foot research system.</p>",
+        "head_align": "split",
+        "columns": "3",
+        "style": "boxed",
+        "btn1_label": "Explore Aquafab Workbench",
+        "btn1_link": "/pages/aquafab-workbench",
+        "btn1_style": "accent"
+      }
+    },
+    "faq": {
+      "type": "af-faq",
+      "blocks": {
+        "q1": {
+          "type": "q",
+          "settings": {
+            "question": "What's the difference between the Alpha and Teaching flow chambers?",
+            "answer": "<p>Teaching Flow Chambers come in three standard sizes and plug into a laptop — ideal for classrooms and pilot work. Alpha Flow Chambers are research systems built to your dimensions, velocity range and options.</p>"
+          }
+        },
+        "q2": {
+          "type": "q",
+          "settings": {
+            "question": "Can I get a chamber in a size that isn't listed?",
+            "answer": "<p>Yes — that's the norm for Alpha systems. Enter your dimensions in the Alpha builder and we'll quote it.</p>"
+          }
+        },
+        "q3": {
+          "type": "q",
+          "settings": {
+            "question": "Can you calibrate a flume we already own?",
+            "answer": "<p>Yes. <a href=\"/products/piv-flow-calibration\">PIV Flow Calibration</a> works with chambers you already own, including other manufacturers' equipment — as a kit your team runs in Aquafab Workbench, with optional on-site setup support.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "q1",
+        "q2",
+        "q3"
+      ],
+      "settings": {
+        "surface": "mist",
+        "eyebrow": "FAQ",
+        "heading": "Flow chamber questions"
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "intro",
+    "uses",
+    "grid",
+    "custom",
+    "choose",
+    "software",
+    "included",
+    "faq",
+    "cta"
+  ]
+}
